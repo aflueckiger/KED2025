@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ked2024"
+version = "0.1.0"
+description = "The ABC of Computational Text Analysis. BA Seminar, Spring 2024, University of Lucerne"
+authors = ["Alex Flückiger"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wheel = "^0.42.0"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+jupyterlab = "^4.0.10"
+textacy = "^0.13.0"
+scattertext = "^0.1.19"
+spacy = "^3.7.2"
+en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl"}
+de-core-news-sm = {url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.7.0/de_core_news_sm-3.7.0-py3-none-any.whl"}
+ipywidgets = "^8.1.1"
+beautifulsoup4 = "^4.12.2"
+plotnine = "^0.12.4"
+jupyter = "^1.0.0"
+pytesseract = "^0.3.10"
+pypdf = "^3.17.4"
+pdf2image = "^1.16.3"
+poetry-plugin-export = "^1.7.1"
+
+[tool.poetry.group.dev.dependencies]
+doit = "^0.36.0"
+black = "^24.3.0"
+jupyterlab-rise = "^0.42.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

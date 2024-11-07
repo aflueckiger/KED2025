@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: ../docs
+  resources:
+    - "../lectures/html/*html"
+    - "../lectures/pdf/*pdf"
+    - "materials"
+    - "assignments"
+    - "KED2024_syllabus.pdf"
+  render:
+    - "*.qmd"
+  preview:
+    port: 3333
+
+website:
+  title: "KED2024"
+  site-url: https://aflueckiger.github.io/KED2024
+  search: true
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - schedule.qmd
+      - lectures.qmd
+      - assignments.qmd
+      - materials.qmd
+    pinned: true
+  page-footer:
+    left: "Copyright 2024, Alex Flückiger"
+    right:
+      - icon: github
+        href: https://github.com/aflueckiger/KED2024
+  open-graph: true
+  twitter-card:
+    description: "In this hands-on seminar, bachelor students of social and cultural sciences learn the basics of programming among other essential technical skills. Building on a modern technology stack, the course aims to prepare students to conduct data-driven research as well as to make everyday life easier by fostering technological fundamentals. In short, the course promotes practical and theoretical digital literacy."
+    image: /_images/background.png
+  favicon: /_images/favicon/android-chrome-512x512.png
+
+
+format:
+  html:
+    theme:
+     light: [litera, light_styles.scss]
+     dark: [litera, dark_styles.scss]
+    toc: true
+    link-external-newwindow: true
