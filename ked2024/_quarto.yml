@@ -45,3 +45,6 @@ format:
      dark: [litera, dark_styles.scss]
     toc: true
     link-external-newwindow: true
+
+execute:
+  freeze: auto  # re-render only when source changes
