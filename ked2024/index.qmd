@@ -1,6 +1,6 @@
 ---
 title: 'The ABC of Computational Text Analysis'
-subtitle: "BA Seminar, Spring 2024, University of Lucerne"
+subtitle: "BA Seminar, Spring 2025, University of Lucerne"
 layout: default
 author: Alex Flückiger
 date: "2024-02-08"
@@ -21,4 +21,4 @@ Along the way, we deal with questions like these:
 
 [{{< fa external-link >}} Go to UniLu website](https://portal.unilu.ch/details?code=FS241589)
 
-[{{< fa file-pdf >}} Get course syllabus as PDF](https://aflueckiger.github.io/KED2024/KED2024_syllabus.pdf)
+[{{< fa file-pdf >}} Get course syllabus as PDF](https://aflueckiger.github.io/KED2025/KED2025_syllabus.pdf)

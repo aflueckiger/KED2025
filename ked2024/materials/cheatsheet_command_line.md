@@ -1,6 +1,6 @@
 ---
 title: Cheatsheet Shell Commands
-subtitle: Seminar KED2024
+subtitle: Seminar KED2025
 author: Alex Flückiger
 date: 27.01.2023
 toc: True

@@ -17,15 +17,26 @@ Below you find a brief description of all the lectures. I make the slides availa
 
 On the one hand, I present the goals and organization of the seminar. On the other hand, we look at recent advancements in the area of artificial intelligence (AI) and digital humanities (DH) that offer an impression of the fascinating prospects of modern computing.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_01.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_01.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_01.md){target="_blank"}
+
+
+<div class="slide-deck">
+<iframe class="slide-deck" src="lectures/html/ked2024_01.html" ></iframe>
+</div>
+
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_01.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_01.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_01.md){target="_blank"}
 
 <!-- [{{< fa video size=xl >}}](https://tube.switch.ch/videos/1d07f265) -->
+
 
 ## Week 2: Text as Data
 
 Computational text analysis comes with many challenges that are unique due to the fuzziness of natural language. In this session, we learn about its methodological foundation and conduct our first computational text analysis to understand how this translates into practice.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_02.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/3zVCZFP1Pt)
+<div class="slide-deck">
+<iframe class="slide-deck" src="lectures/html/ked2024_02.html" ></iframe>
+</div>
+
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_02.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/3zVCZFP1Pt)
 
 ```{=html}
 <!-- 
@@ -33,6 +44,7 @@ Computational text analysis comes with many challenges that are unique due to th
 
 -->
 ```
+
 ### Required Reading
 
 -   Lazer, David, Alex Pentland, Lada Adamic, Sinan Aral, Albert-László Barabási, Devon Brewer, Nicholas Christakis, Noshir Contractor, James Fowler, Myron Gutmann, Tony Jebara, Gary King, Michael Macy, Deb Roy, and Marshall Van Alstyne. 2009. “Computational Social Science.” *Science* 323(5915):721–23. (on OLAT)
@@ -45,7 +57,7 @@ Computational text analysis comes with many challenges that are unique due to th
 
 The title says it all. We are getting ready for the practical part of the course: Programming. As installing Python and non-standard command-line tools may be tricky, we dedicate time in class rather than doing it as homework only. Additionally, I will also introduce some jargon that guide your way in the programmer's brave new word.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_03.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_03.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_03.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/vR3gwKp1ND)
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_03.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_03.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_03.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/vR3gwKp1ND)
 
 ```{=html}
 <!-- 
@@ -54,6 +66,7 @@ The title says it all. We are getting ready for the practical part of the course
 
 -->
 ```
+
 ### Optional: pimp your workflow
 
 -   Healy, Kieran. 2019. “The Plain Person’s Guide to Plain Text Social Science.” [online](https://kieranhealy.org/publications/plain-person-text/).
@@ -62,7 +75,7 @@ The title says it all. We are getting ready for the practical part of the course
 
 The command-line is a powerful tool at your disposal. It is the working horse for many data wrangling tasks. In this session, you learn the basics of shells and how to perform many operations effectively by substituting clicks on the screen with commands. Admittedly, it is not overly exciting at this stage, yet it is essential for more sophisticated automation later on.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_04.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_04.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_04.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/BJNRqSrNB0/)
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_04.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_04.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_04.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/BJNRqSrNB0/)
 
 ```{=html}
 <!-- 
@@ -71,6 +84,7 @@ The command-line is a powerful tool at your disposal. It is the working horse fo
 
 -->
 ```
+
 ### Recommended Resources
 
 -   [Cheatsheet](https://aflueckiger.github.io/ked2024/materials/cheatsheet_command_line.pdf){target="_blank"} for this course
@@ -81,7 +95,7 @@ The command-line is a powerful tool at your disposal. It is the working horse fo
 
 Counting words is the most basic method to look at texts from a computational perspective. The command-line provides tools to sift through a massive text collection with ease. Combined with pattern-based search, you get quick results regardless whether you want to get a quantitative overview across documents, count particular words or see their usage in context. Does it sound like the Swiss knife in your research toolkit that marks the starting point of almost any textual analysis? It certainly is.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_05.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_05.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_05.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/1xXmfevlUV)
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_05.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_05.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_05.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/1xXmfevlUV)
 
 ```{=html}
 <!-- 
@@ -89,6 +103,7 @@ Counting words is the most basic method to look at texts from a computational pe
 
 -->
 ```
+
 ### Optional Reading
 
 -   Ben Schmidt. 2019. [Regular Expressions](https://dsgithub.com/HumanitiesDataAnalysis/HDA19/blob/master/Handouts/01-regex.pdf)
@@ -103,7 +118,7 @@ Counting words is the most basic method to look at texts from a computational pe
 
 As the folks say, Python is among the coolest programming languages, relatively easy to learn, and provides excellent NLP packages so that you do not have to implement everything yourself. In this session, we begin with an introduction to the basic syntax of Python. Starting with basics may be dry stuff; however, it will allow you to use third-party libraries and get a handle on more sophisticated NLP analyses later on.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_06.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_06.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_06.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/3FTh820xDn){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_06.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_06.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_06.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/3FTh820xDn){target="_blank"}
 
 ```{=html}
 <!-- 
@@ -111,16 +126,17 @@ As the folks say, Python is among the coolest programming languages, relatively 
 
 -->
 ```
+
 ## Week 7: Working with Data
 
 Up to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text. In particular, we use optical character recognition (OCR).
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_07.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_07.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_07.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/VJXVagFfQq){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_07.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_07.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_07.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/VJXVagFfQq){target="_blank"}
 
 You can open the static code or run the code directly in your browser without any installation using Binder:
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/blob/main/ked2024/materials/code/ked2024_07.ipynb) Open the static code
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2024/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_07.ipynb) Run in your browser via Binder (OCR not working on Binder)
+-   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked2024/materials/code/ked2024_07.ipynb) Open the static code
+-   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_07.ipynb) Run in your browser via Binder (OCR not working on Binder)
 
 ```{=html}
 <!--
@@ -128,17 +144,18 @@ You can open the static code or run the code directly in your browser without an
 
 -->
 ```
+
 ## Week 8: Data Analysis of Swiss Media
 
 Analyzing the media discourse from the past and the present has always been one of the most exciting approaches for social science. Only recently, however, [Swissdox\@LiRI](https://swissdox.linguistik.uzh.ch/#) has introduced a simple-to-use API to assemble and download comprehensive datasets of Swiss news media. In this session, we learn about the process of data curation and data analysis using the Pandas package.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_08.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_08.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_08.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/RI42XBvTmi){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_08.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_08.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_08.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/RI42XBvTmi){target="_blank"}
 
 You can open the static code or run the code directly in your browser without any installation using Binder.
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/blob/main/ked2024/materials/code/ked2024_08.ipynb) Open the static code
+-   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked2024/materials/code/ked2024_08.ipynb) Open the static code
 
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2024/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_08.ipynb) Run in your browser via Binder
+-   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_08.ipynb) Run in your browser via Binder
 
 ```{=html}
 <!--
@@ -146,11 +163,12 @@ You can open the static code or run the code directly in your browser without an
 -   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg){alt="Open In Colab"}](#0) Run in your browser via Google Colab (requires a Google Account)
 -->
 ```
+
 ## Week 9: Ethics and the Evolution of NLP
 
 Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful than ever and, thus, pervasive in many aspects of life. Unfortunately, it also exhibits severe and poorly understood biases that may cause harm. With the recent *turn to data-driven deep learning*, NLP overcame many theoretical limitations, but this comes at a cost. It is our duty to better understand the workings and impact of this technology.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_09.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_09.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_09.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/rfQsX14LKw){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_09.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_09.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_09.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/rfQsX14LKw){target="_blank"}
 
 ```{=html}
 <!--
@@ -159,17 +177,18 @@ Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful 
 
 -->
 ```
+
 ## Week 10: NLP with Python
 
 Python is the language of choice when it comes to advanced NLP. Have you ever wondered how the frequency of terms has evolved over the years? Or how the language differs between two groups whereby the groups may be formed by any metadata (people, organization, gender etc.)? In such an exploratory endeavor, using an interactive and visual mode is very effective and complements statistics. In short, we finally arrived at the serious stuff in our journey. To make sure you don't get lost in the forest of yet unknown concepts, you will also learn some more jargon of NLP.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_10.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_10.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_10.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/mbSGzrfNEL)
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_10.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_10.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_10.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/mbSGzrfNEL)
 
 You can open the static code or run the code directly in your browser without any installation using Binder.
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/blob/main/ked2024/materials/code/ked2024_10.ipynb) Open the static code
+-   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked2024/materials/code/ked2024_10.ipynb) Open the static code
 
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2024/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_10.ipynb) Run in your browser via Binder
+-   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_10.ipynb) Run in your browser via Binder
 
 ```{=html}
 <!-- 
@@ -177,21 +196,18 @@ You can open the static code or run the code directly in your browser without an
 
 -->
 ```
+
 ## Week 11: NLP with Python II + Working Session
 
 We continue our deep dive into NLP with Python in today's session. It is the last piece of our puzzle. During this course, you have learned about the entire workflow, from assembling datasets of documents to analyzing their content and visualizing your findings. As soon as you have a structured text collection along with basic metadata (e.g., publication date), you can take numerous perspectives to look at your data.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_11.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_11.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_11.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/dhwlYVZGuZ)
-
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_11.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_11.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_11.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/dhwlYVZGuZ)
 
 You can open the static code or run the code directly in your browser without any installation using Binder.
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/blob/main/ked2024/materials/code/ked2024_10.ipynb) Open the static code
+-   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked2024/materials/code/ked2024_10.ipynb) Open the static code
 
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2024/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_10.ipynb) Run in your browser via Binder
-
-
-
+-   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2024%2Fmaterials%2Fcode%2Fked2024_10.ipynb) Run in your browser via Binder
 
 ### Explore interactively: 1 August Speeches by Swiss Federal Councilors
 
@@ -212,13 +228,14 @@ You can search for the terms of your interest. Moreover, you may click on the po
 
 -->
 ```
+
 ## Week 12: Mini-Project Presentations + Discussion
 
 In this session, it is your turn. Going beyond mere toy examples, you present what you have worked on and show off your first harvest of computational text analysis.
 
 The seminar is coming to an end, yet it doesn't have to be a dead-end. You may have gotten more proficient in cursing your computer but you are also ready to fight your way through the jungle of technology. Keep going, cheers!
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2024_12.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_12.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2024/tree/main/ked2024/lectures/md/ked2024_12.md){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2024_12.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_12.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_12.md){target="_blank"}
 
 ```{=html}
 <!-- 

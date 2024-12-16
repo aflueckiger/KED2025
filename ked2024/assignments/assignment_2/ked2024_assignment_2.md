@@ -1,5 +1,5 @@
 ---
-title: "KED2024 Assignment 2: Word Counts using Python"
+title: "KED2025 Assignment 2: Word Counts using Python"
 author: Alex Flückiger | University of Lucerne
 email: 'alex.flueckiger@doz.unilu.ch'
 date: "2024-02-08"
@@ -7,11 +7,11 @@ date: "2024-02-08"
 
 # Requirements {.unnumbered}
 
--   Deadline: 19 April 2024 (by midnight)
+-   Deadline: 19 April 2025 (by midnight)
 
 -   File format: Jupyter Notebook `.ipynb` or Python file `.py`
 
--   Naming schema: `SURNAME_KED2024_1.ipynb` or `SURNAME_KED2024_1.py`; Replace `SURNAME` with your surname.
+-   Naming schema: `SURNAME_KED2025_1.ipynb` or `SURNAME_KED2025_1.py`; Replace `SURNAME` with your surname.
 
 -   Submit your solutions on time via the respective exercise module on OLAT. The module is only open until midnight.
 
@@ -35,7 +35,7 @@ Download a novel or play of your interest from Project Gutenberg with `wget` usi
 
 3.  Open a shell.
 
-4.  Navigate to the folder `KED2024` using `cd` and create a subfolder with `mkdir` named `ked_assignment_2`.
+4.  Navigate to the folder `KED2025` using `cd` and create a subfolder with `mkdir` named `ked_assignment_2`.
 
 5.  Navigate into the newly created subfolder and run `wget` followed by the link address of the book that you copied.
 

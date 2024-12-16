@@ -7,8 +7,8 @@ You have to submit two assignments to complete the seminar successfully. The pur
 
 | \#  | Topic                                                                         | Published        | Deadline (by midnight) | Solution                                                                                                                                  |
 |---------------|---------------|---------------|---------------|---------------|
-| 1   | [Experimenting with LLMs](assignments/assignment_1/ked2024_assignment_1.pdf)  | 22 February 2024 | 1 March 2024           | (individiual feedback)                                                                                                                    |
-| 2   | [Word Counts using Python](assignments/assignment_2/ked2024_assignment_2.pdf) | 11 April 2024    | 19 April 2024          | [Example solution](https://github.com/aflueckiger/KED2024/tree/main/ked2024/assignments/assignment_2/ked2024_assignment_2_solution.ipynb) |
+| 1   | [Experimenting with LLMs](assignments/assignment_1/ked2024_assignment_1.pdf)  | 22 February 2025 | 1 March 2025           | (individiual feedback)                                                                                                                    |
+| 2   | [Word Counts using Python](assignments/assignment_2/ked2024_assignment_2.pdf) | 11 April 2025    | 19 April 2025          | [Example solution](https://github.com/aflueckiger/KED2025/tree/main/ked2024/assignments/assignment_2/ked2024_assignment_2_solution.ipynb) |
 
 # Mini-Project
 
@@ -20,12 +20,12 @@ More information will be provided later in the course.
 
 ## Inspiring Student Projects
 
--   [Doping in Swiss media](materials/mini_projects/2024/miniproject_2023_doping.pdf), Aaron Steiner, Livia Köppel, Silvan Lachmuth, 2024
+-   [Doping in Swiss media](materials/mini_projects/2024/miniproject_2023_doping.pdf), Aaron Steiner, Livia Köppel, Silvan Lachmuth, 2025
 -   [Crypto-currencies in Swiss media](materials/mini_projects/2023/miniproject_2023_crypto_currencies.pdf), Nick Rölli, Cedric Keiser, Nils Wolf, Valentin Casanova, 2023
 -   [Historical semantic of `performance` by University of Zurich](materials/mini_projects/2023/miniproject_2023_performance.pdf), Denise Göldlin, Emma Notter, Melanie Meyer, 2023
 -   [Self-portrayal of Incels](materials/mini_projects/2023/miniproject_2023_incels.pdf), Irfete Iseni, Asia Petrino, 2023
 -   [Communication of sustainability of Swiss supermarkets](materials/mini_projects/2023/miniproject_2023_sustainability.pdf), Rebecca Ferraro & Xhoana Hasanaj, 2023
--   [Gender differences in 1 August speeches](materials/mini_projects/2022_gender_differences/ked2024_presentation.pdf) \[[Code](https://github.com/aflueckiger/KED2024/tree/main/ked2024/materials/mini_projects/2022_gender_differences)\], Dario Haab, Valentina Meyer, Nils Brun, 2022
+-   [Gender differences in 1 August speeches](materials/mini_projects/2022_gender_differences/ked2024_presentation.pdf) \[[Code](https://github.com/aflueckiger/KED2025/tree/main/ked2024/materials/mini_projects/2022_gender_differences)\], Dario Haab, Valentina Meyer, Nils Brun, 2022
 
 # Optional Seminar Paper
 
@@ -33,7 +33,7 @@ You are welcomed to write an optional seminar paper (Hauptseminararbeit) for whi
 
 Due to the practical foundation of this seminar, you are well-prepared to subsequently apply computational text methods in a personal project. Although this is not a requirement, you may want to turn your mini-project into a seminar paper by deepening your empirical inquiry.
 
-Students planning to write a seminar paper should send me an email with a short outline of their research idea until **15 May 2024** at the latest. When you would like to discuss your idea in person, feel free to do so any time after the seminar.
+Students planning to write a seminar paper should send me an email with a short outline of their research idea until **15 May 2025** at the latest. When you would like to discuss your idea in person, feel free to do so any time after the seminar.
 
 Requirements for the seminar paper (Hauptseminararbeit):
 
@@ -41,4 +41,4 @@ Requirements for the seminar paper (Hauptseminararbeit):
 -   Use any computational methods to analyze your data.
 -   Your paper has a theoretical question guiding your methodical approach. In other words, methods are a means, not an end in themselves.
 -   Formal: 15 pages (A4), 12 pt Times New Roman, 3cm margin, 1.5 line spacing.
--   Deadline for submitting the final paper: **31 August 2024**.
+-   Deadline for submitting the final paper: **31 August 2025**.

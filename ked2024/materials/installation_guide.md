@@ -1,6 +1,6 @@
 ---
 title: Setting up your Development Environment
-subtitle: Seminar KED2024
+subtitle: Seminar KED2025
 author: Alex Flückiger
 date: 27.01.2023
 toc: True
@@ -339,7 +339,7 @@ You presumably have installed some of the required tools already or you have the
 
 We need to install some additional packages that are not included in the Python standard library.
 
-Using the dependency management `poetry`, we can install all the dependencies needed in a project at once and fully reproducible on any machine. All dependencies are specified in a file called `pyproject.toml` that is provided in the [repository of this seminar](%5Bpyproject.toml%5D(https://github.com/aflueckiger/KED2024/blob/KED2024/pyproject.toml)), available on GitHub. We will learn more about GitHub and the installed packages later in the course. For now, you can think of a GitHub repository as a publicly available project folder that is versioned.
+Using the dependency management `poetry`, we can install all the dependencies needed in a project at once and fully reproducible on any machine. All dependencies are specified in a file called `pyproject.toml` that is provided in the [repository of this seminar](%5Bpyproject.toml%5D(https://github.com/aflueckiger/KED2025/blob/KED2025/pyproject.toml)), available on GitHub. We will learn more about GitHub and the installed packages later in the course. For now, you can think of a GitHub repository as a publicly available project folder that is versioned.
 
 1.  Open a command-line (Mac: Terminal; Windows: Ubuntu) and download the GitHub repository of this course.
 
@@ -350,8 +350,8 @@ Using the dependency management `poetry`, we can install all the dependencies ne
     cd /mnt/c/Users/USERNAME/Documents
 
     # everyone
-    git clone https://github.com/aflueckiger/KED2024.git
-    cd KED2024
+    git clone https://github.com/aflueckiger/KED2025.git
+    cd KED2025
     ```
 
 2.  Install the dependency management for Python:
@@ -383,7 +383,7 @@ As a kind of initiation ritual of coding, say hello to the programming world in 
 
 2.  Windows only: Ensure that you connected to `WSL: Ubuntu` (green or blue patch in the lower-left corner, see @fig:figure1)
 
-3.  Open the folder `KED2024` via the menu.
+3.  Open the folder `KED2025` via the menu.
 
 4.  Create a new file called `hello_world.py`.
 

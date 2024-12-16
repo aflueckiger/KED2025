@@ -1,5 +1,5 @@
 ---
-title: "KED2024 Assignment 1: Experimenting with LLMs"
+title: "KED2025 Assignment 1: Experimenting with LLMs"
 author: Alex Flückiger | University of Lucerne
 email: 'alex.flueckiger@doz.unilu.ch'
 date: "2024-02-08"
@@ -9,7 +9,7 @@ date: "2024-02-08"
 
 # Requirements {-}
 
-- Deadline: 1 March 2024 (by midnight)
+- Deadline: 1 March 2025 (by midnight)
 - File format: PDF
 - Language: German or English
 - Naming schema: `surname_ked2024_1.pdf`   
