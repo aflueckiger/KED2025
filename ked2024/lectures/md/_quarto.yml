@@ -16,7 +16,6 @@ format:
     output-dir: ../html
     overview: true
     menu: false
-    self-contained: true
     embed-resources: true
     slide-number: c/t
     show-slide-number: all
