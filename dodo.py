@@ -10,7 +10,7 @@ TITLE = "BA Seminar: The ABC of Computational Text Analysis"
 AUTHOR = "Alex Flückiger"
 COURSE_NAME = "KED2024"
 
-MAIN_DIR = Path(".").cwd() / COURSE_NAME.lower()
+MAIN_DIR = Path(".").cwd() / "ked"
 CSSFILE = MAIN_DIR / "lectures/resources/custom_style_reveal.scss"
 LECTURES_DIR = MAIN_DIR / "lectures"
 LECTURES_MD_DIR = LECTURES_DIR / "md"
