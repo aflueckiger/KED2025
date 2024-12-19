@@ -29,5 +29,5 @@ format:
     theme: [default, ../resources/custom_style_reveal.scss]
     highlight-style: github-dark
     code-line-numbers: false
-    view: scroll
-    scrollProgress: true
+    # view: scroll
+    # scrollProgress: true 
