@@ -17,24 +17,25 @@ Below you find a brief description of all the lectures. I make the slides availa
 
 On the one hand, I present the goals and organization of the seminar. On the other hand, we look at recent advancements in the area of artificial intelligence (AI) and digital humanities (DH) that offer an impression of the fascinating prospects of modern computing.
 
+::: slide-deck
+<iframe class="slide-deck" src="lectures/html/ked2024_01.html">
 
-
-<div class="slide-deck">
-<iframe class="slide-deck" src="lectures/html/ked2024_01.html" ></iframe>
-</div>
+</iframe>
+:::
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2024_01.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_01.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_01.md){target="_blank"}
 
 <!-- [{{< fa video size=xl >}}](https://tube.switch.ch/videos/1d07f265) -->
 
-
 ## Week 2: Text as Data
 
 Computational text analysis comes with many challenges that are unique due to the fuzziness of natural language. In this session, we learn about its methodological foundation and conduct our first computational text analysis to understand how this translates into practice.
 
-<div class="slide-deck">
-<iframe class="slide-deck" src="lectures/html/ked2024_02.html" ></iframe>
-</div>
+::: slide-deck
+<iframe class="slide-deck" src="lectures/html/ked2024_02.html">
+
+</iframe>
+:::
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2024_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2024_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/lectures/md/ked2024_02.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/3zVCZFP1Pt)
 
