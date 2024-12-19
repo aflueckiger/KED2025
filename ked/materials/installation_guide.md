@@ -227,8 +227,8 @@ To use the powerful Bash tools on your Windows computer, we install a Ubuntu Lin
 
     ``` bash
     cd ~
-    ln -s /mnt/c/Users/USERNAME/Documents documents
-    ln -s /mnt/c/Users/USERNAME/OneDrive/ onedrive
+    ln -s "/mnt/c/Users/USERNAME/Documents" documents
+    ln -s "/mnt/c/Users/USERNAME/OneDrive/" onedrive
     ```
 
     Your `Documents` on Windows can be accessed like this:
@@ -339,7 +339,7 @@ You presumably have installed some of the required tools already or you have the
 
 We need to install some additional packages that are not included in the Python standard library.
 
-Using the dependency management `poetry`, we can install all the dependencies needed in a project at once and fully reproducible on any machine. All dependencies are specified in a file called `pyproject.toml` that is provided in the [repository of this seminar](%5Bpyproject.toml%5D(https://github.com/aflueckiger/KED2025/blob/KED2025/pyproject.toml)), available on GitHub. We will learn more about GitHub and the installed packages later in the course. For now, you can think of a GitHub repository as a publicly available project folder that is versioned.
+Using the dependency management `poetry`, we can install all the dependencies needed in a project at once and fully reproducible on any machine. All dependencies are specified in a file called `pyproject.toml` that is provided in the [repository of this seminar](https://github.com/aflueckiger/KED2025/blob/ked/pyproject.toml)), available on GitHub. We will learn more about GitHub and the installed packages later in the course. For now, you can think of a GitHub repository as a publicly available project folder that is versioned.
 
 1.  Open a command-line (Mac: Terminal; Windows: Ubuntu) and download the GitHub repository of this course.
 
