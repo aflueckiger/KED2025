@@ -2,52 +2,66 @@
 import spacy
 import pandas as pd
 from umap import UMAP
-from sklearn.pipeline import make_pipeline
-
-from embetter.text import SentenceEncoder
-
+from sentence_transformers import SentenceTransformer
 
 
 # load German language model
 nlp = spacy.load("de_core_news_sm")
 
 # Load dataframe
-df = pd.read_csv("../data/dataset_speeches_federal_council_2019.csv")
+df = pd.read_csv("../data/extended_swiss_media_wokeness.tsv")
 
-# Drop rows with missing text
-df = df.dropna(subset=["Text"])
+df.rename(columns={"content": "text"}, inplace=True)
 
 # process documents efficiently (batch-wise)
-df["doc"] = list(nlp.pipe(df["Text"]))
+df["doc"] = list(nlp.pipe(df["text"]))
+
+df.head()
 
 # %%
 
+
 def transform_into_sentlevel_dataframe(df):
     data = []
+    print("Number of documents:", len(df))
     for idx, row in df.iterrows():
 
         meta = row.to_dict()
-        print(meta.keys())
-        meta.pop("doc").pop("Text")
+        del meta["doc"]
+        del meta["text"]
 
         for sent in row["doc"].sents:
-            data.append({"sentence": sent.text, **meta})
+            data_sent = {**meta}
+            data_sent["text"] = sent.text
+            data.append(data_sent)
 
-    return pd.DataFrame(data)
+    df_sent = pd.DataFrame(data)
+    print("Number of sentences:", len(df_sent))
 
+    return df_sent
+
+# create a sentence-level dataframe
 df_sent = transform_into_sentlevel_dataframe(df)
-sentences = df_sent["sentence"].tolist()
 
+# set meta information to display in the interface
+df_sent["meta"] = df_sent["pubtime"].astype(str) + ", " + df_sent["medium_code"]
+df_sent = df_sent.sample(5000, random_state=42)
+
+
+# %%
 # Build a sentence encoder pipeline with UMAP at the end.
-enc = SentenceEncoder("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
-umap = UMAP()
-
-embedding_pipeline = make_pipeline(enc)
-dim_reduction_pipeline = make_pipeline(umap)
 
 # Calculate embeddings
-X_embeddings = embedding_pipeline.fit_transform(sentences)
-X_tfm = dim_reduction_pipeline.fit_transform(X_embeddings)
+model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
+X_embeddings = model.encode(df_sent["text"])
+
+# model = SentenceTransformer("jinaai/jina-embeddings-v3", trust_remote_code=True)
+# task = "text-matching"
+# X_embeddings = model.encode(sentences, task=task, prompt_name=task, truncate_dim=256)
+
+# Reduce dimensions
+umap = UMAP()
+X_tfm = umap.fit_transform(X_embeddings)
 
 # Write to disk. Note! Text column must be named "text"
 df_sent["x"] = X_tfm[:, 0]
@@ -152,16 +166,18 @@ class BaseTextAnnotator:
         else:
             rows = self.dataf.iloc[self.scatter.selection()]
 
-        self.html.value = "".join(
-            [
-                f'<p style="margin: 0px"><b>{l}:</b> {t}</p>'
-                for t, l in zip(rows["text"], rows["label"])
-            ]
-        )
+        texts = [
+            f"""<p style="margin: 0px">
+                    <b>{m} (<span style="color: darkblue">{l}</span>):</b> 
+                    {t}
+                </p>"""
+            for t, l, m in zip(rows["text"], rows["label"], rows["meta"])
+        ]
+        self.html.value = "".join(sorted(texts))
 
     def update_query(self, change):
         if self.text_query.value:
-            X_tfm = self.encoder.transform([self.text_query.value])
+            X_tfm = self.encoder.encode([self.text_query.value])
             dists = cosine_similarity(self.X, X_tfm).reshape(1, -1)
             self.dists = dists
             norm_dists = 0.01 + (dists - dists.min()) / (
@@ -196,7 +212,7 @@ class BaseTextAnnotator:
 
 
 labels = ["label1", "label2", "label3"]
-widget = BaseTextAnnotator(df, X=X_embeddings, encoder=enc, labels=labels)
+widget = BaseTextAnnotator(df_sent, X=X_embeddings, encoder=model, labels=labels)
 widget.show()
 
 # %%
