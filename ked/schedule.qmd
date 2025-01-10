@@ -8,7 +8,7 @@ We have 12 seminar sessions together.
 The plan below is provisional. I am happy to adapt the topics, as well as the schedule, to the needs and interests of the students. Likely, we will change some topics and orderings as we go.
 
 | Date | Topic |
-|---------------------|---------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | 20 February 2025 | [Introduction + Where is the digital revolution?](lectures.html#week-1-introduction-where-is-the-digital-revolution) |
 | 27 February 2025 | *no lecture (Fasnacht)* |
 | 06 March 2025 | [Text as Data](lectures.html#week-2-text-as-data) |

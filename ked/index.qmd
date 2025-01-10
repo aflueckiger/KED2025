@@ -3,7 +3,7 @@ title: 'The ABC of Computational Text Analysis'
 subtitle: "BA Seminar, Spring 2025, University of Lucerne"
 layout: default
 author: Alex Flückiger
-date: "2024-02-08"
+date: "2025-01-10"
 sidebar: false
 ---
 

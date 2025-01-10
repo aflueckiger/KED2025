@@ -9,19 +9,19 @@ Before you can actually start programming on your computer, you need to set up t
 
 If anything does not work as described, get in touch so that I can help.
 
-[{{< fa file-pdf size=xl >}}](https://aflueckiger.github.io/KED2025/materials/installation_guide.pdf) [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/materials/installation_guide.md)
+[{{< fa file-pdf size=xl >}}](https://aflueckiger.github.io/KED2025/materials/installation_guide.pdf) [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/materials/installation_guide.md)
 
 ## Cheatsheet Data Wrangling in Bash
 
 The cheatsheet contains commands relevant for data wrangling task preceding any textual analysis. In addition to common Bash commands, it also features examples of regular expressions (RegEx).
 
-[{{< fa file-pdf size=xl >}}](https://aflueckiger.github.io/KED2025/materials/cheatsheet_command_line.pdf) [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/materials/cheatsheet_command_line.md)
+[{{< fa file-pdf size=xl >}}](https://aflueckiger.github.io/KED2025/materials/cheatsheet_command_line.pdf) [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/materials/cheatsheet_command_line.md)
 
 ## Python Basics
 
 The Jupyter Notebook contains basic Python statements that you need to know before you can make use of the third-party libraries.
 
-[{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2024/materials/code/python_basics.ipynb)
+[{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/materials/code/python_basics.ipynb)
 
 ## NLP with Python - An example analysis
 
