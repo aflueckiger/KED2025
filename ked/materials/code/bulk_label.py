@@ -8,8 +8,8 @@ from sentence_transformers import SentenceTransformer
 # load German language model
 nlp = spacy.load("de_core_news_sm")
 
-# Load dataframe
-df = pd.read_csv("../data/extended_swiss_media_wokeness.tsv")
+# Load dataframe with a parsed date column
+df = pd.read_csv("../data/extended_swiss_media_wokeness.tsv", parse_dates=["pubtime"])
 
 df.rename(columns={"content": "text"}, inplace=True)
 
@@ -19,7 +19,6 @@ df["doc"] = list(nlp.pipe(df["text"]))
 df.head()
 
 # %%
-
 
 def transform_into_sentlevel_dataframe(df):
     data = []
@@ -43,30 +42,37 @@ def transform_into_sentlevel_dataframe(df):
 # create a sentence-level dataframe
 df_sent = transform_into_sentlevel_dataframe(df)
 
-# set meta information to display in the interface
-df_sent["meta"] = df_sent["pubtime"].astype(str) + ", " + df_sent["medium_code"]
+# set meta information to display in the interface (date is formatted)
+df_sent["meta"] = df_sent["pubtime"].dt.strftime('%m/%d/%Y').astype(str) + ", " + df_sent["medium_code"]
+
+
+# select only sentence with a particular term
+# df_sent = df_sent[df_sent["text"].str.contains("woke", case=False)]
+
+# filter out sentences with less than 15 characters
+df_sent = df_sent[df_sent["text"].str.len() >= 15]
 df_sent = df_sent.sample(5000, random_state=42)
+
 
 
 # %%
 # Build a sentence encoder pipeline with UMAP at the end.
 
 # Calculate embeddings
-model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
-X_embeddings = model.encode(df_sent["text"])
+model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", trust_remote_code=True)
+X_embeddings = model.encode(df_sent["text"].values)
 
 # model = SentenceTransformer("jinaai/jina-embeddings-v3", trust_remote_code=True)
 # task = "text-matching"
 # X_embeddings = model.encode(sentences, task=task, prompt_name=task, truncate_dim=256)
 
 # Reduce dimensions
-umap = UMAP()
+umap = UMAP(random_state=42)
 X_tfm = umap.fit_transform(X_embeddings)
 
-# Write to disk. Note! Text column must be named "text"
+# Add the reduced dimensions to the dataframe
 df_sent["x"] = X_tfm[:, 0]
 df_sent["y"] = X_tfm[:, 1]
-
 
 # %%
 import jscatter
@@ -180,9 +186,10 @@ class BaseTextAnnotator:
             X_tfm = self.encoder.encode([self.text_query.value])
             dists = cosine_similarity(self.X, X_tfm).reshape(1, -1)
             self.dists = dists
-            norm_dists = 0.01 + (dists - dists.min()) / (
-                0.1 + dists.max() - dists.min()
-            )
+            norm_dists = dists
+            # norm_dists = 0.01 + (dists - dists.min()) / (
+            #     0.1 + dists.max() - dists.min()
+            # )
             self.scatter.color(by=norm_dists[0])
             self.scatter.size(by=norm_dists[0])
         else:
@@ -227,3 +234,5 @@ datamapplot.create_plot(
     title="Map of Embeddings",
     sub_title="Each sentence represents a point in the semantic space",
 )
+# %%
+
