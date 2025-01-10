@@ -12,7 +12,7 @@ date: "2024-02-08"
 - Deadline: 1 March 2025 (by midnight)
 - File format: PDF
 - Language: German or English
-- Naming schema: `surname_ked2024_1.pdf`   
+- Naming schema: `surname_ked2025_1.pdf`   
   Replace `surname` with your surname.
 - Submit your solutions on time via the respective exercise module on OLAT. The module is only open until midnight.
 
