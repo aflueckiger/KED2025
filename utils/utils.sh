@@ -3,6 +3,12 @@ find {.,lectures,assignments,materials} -maxdepth 10 -name "*.qmd" | xargs sed -
 find {.,lectures,assignments,materials} -maxdepth 10 -name "*.md" | xargs sed -i 's/ 2024/ 2025/g'
 find {.,lectures,assignments,materials} -maxdepth 10 -name "*.qmd" | xargs sed -i 's/KED2024/KED2025/g'
 find {.,lectures,assignments,materials} -maxdepth 10 -name "*.md" | xargs sed -i 's/KED2024/KED2025/g'
+find {.,lectures,assignments,materials} -maxdepth 10 -name "*.md" | xargs sed -i 's/ked2024/ked2025/g'
+find {.,lectures,assignments,materials} -maxdepth 10 -name "*.ipynb" | xargs sed -i 's/KED2024/KED2025/g'
+find {.,lectures,assignments,materials} -maxdepth 10 -name "*.ipynb" | xargs sed -i 's/ked2024/ked2025/g'
+
+
+
 sed -i 's/KED2024/KED2025/g' _quarto.yml
 
 # rename filenames (-n is for dry run; remove to perform actual renaming)
