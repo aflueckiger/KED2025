@@ -6,7 +6,7 @@ from surya.model.recognition.model import load_model as load_rec_model
 from surya.model.recognition.processor import load_processor as load_rec_processor
 
 
-pdf_file = "/home/alex/KED2025/ked2024/materials/data/scanned_pdf_sample/fdp_scan_party_programme_1947.pdf"
+pdf_file = "/home/alex/KED2025/ked/materials/data/scanned_pdf_sample/fdp_scan_party_programme_1947.pdf"
 from pdf2image import convert_from_path
 
 
