@@ -71,7 +71,7 @@ df_sent["meta"] = df_sent["pubtime"].dt.strftime('%m/%d/%Y').astype(str) + ", " 
 
 # filter out sentences with less than 15 characters
 df_sent = df_sent[df_sent["text"].str.len() >= 15]
-df_sent = df_sent.sample(5000, random_state=42)
+df_sent = df_sent.sample(50, random_state=42).reset_index()
 
 # %%
 # Calculate embeddings
@@ -89,12 +89,13 @@ df_sent["x"] = X_tfm[:, 0]
 df_sent["y"] = X_tfm[:, 1]
 
 # %%
-
-labels = ["label1", "label2", "label3"]
+# create the interactive widget
+labels = ["your_label_1", "your_label_2", "your_label_3"]
 widget = BaseTextAnnotator(df_sent, X=X_embeddings, encoder=embedding_model, labels=labels)
 widget.show()
 
 # %%
+# save the current labeled data
 widget.save_data("labeled_data.csv")
 
 # %%
@@ -110,7 +111,7 @@ datamapplot.create_plot(
 
 
 # %%
-
+# create
 
 
 docs = df_sent['text']

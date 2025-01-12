@@ -37,7 +37,7 @@ class BaseTextAnnotator:
 
         # query input
         self.text_query = Text(
-            value="", placeholder="Type something", description="Query:"
+            value="", placeholder="Search for similar texts", description="Query:"
         )
 
         # area to present texts
@@ -71,7 +71,7 @@ class BaseTextAnnotator:
         self.text_query.observe(self.update_query)
 
         self.sample_btn.on_click(lambda d: self.update())
-        self.label_drpdwn.observe(self.labeling)
+        self.label_drpdwn.observe(self.annotate)
 
         self.scatter.widget.observe(lambda d: self.update(), ["selection"])
 
@@ -81,22 +81,22 @@ class BaseTextAnnotator:
 
     def color_by_label(self):
         self.scatter.color(by=self.dataf["label"])
-        self.scatter.size(self.size)
 
-    def labeling(self, change):
+    def annotate(self, change):
         # filter as event gets triggered multiple times
         if change["new"] in self.labels:
-            self.dataf.loc[self.scatter.selection, "label"] = change["new"]
+            self.dataf.loc[self.selected_idx, "label"] = change["new"]
             self.color_by_label()
+            self.update()
 
     def show(self):
         return self.elem
 
     def update(self):
-        if len(self.scatter.selection()) > 10:
-            rows = self.dataf.iloc[self.scatter.selection()].sample(10)
+        if len(self.selected_idx) > 10:
+            rows = self.dataf.iloc[self.selected_idx].sample(10)
         else:
-            rows = self.dataf.iloc[self.scatter.selection()]
+            rows = self.dataf.iloc[self.selected_idx]
 
         texts = [
             f"""<p style="margin: 0px">
@@ -105,22 +105,17 @@ class BaseTextAnnotator:
                 </p>"""
             for t, l, m in zip(rows["text"], rows["label"], rows["meta"])
         ]
-        n_selected_text = f"<p><b>Number of selected texts: {len(self.scatter.selection())}<b><p>"
+        n_selected_text = f"<p><b>Number of selected texts: {len(self.selected_idx)}</b></p>"
         self.html.value = n_selected_text + "".join(sorted(texts))
 
     def update_query(self, change):
         if self.text_query.value:
             X_tfm = self.encoder.encode([self.text_query.value])
             dists = cosine_similarity(self.X, X_tfm).reshape(1, -1)
-            self.dists = dists
-            norm_dists = dists
-            # norm_dists = 0.01 + (dists - dists.min()) / (
-            #     0.1 + dists.max() - dists.min()
-            # )
-            self.scatter.color(by=norm_dists[0], map='magma')
-            # self.scatter.size(by=norm_dists[0])
+            self.scatter.color(by=dists[0], map='magma')
+            # self.scatter.size(by=dists[0])
 
-            # self.scatter.opacity(by=norm_dists[0])
+            # self.scatter.opacity(by=dists[0])
 
             self.scatter.color(labeling={
                 "variable": "cosine similarity",
@@ -140,11 +135,11 @@ class BaseTextAnnotator:
 
     @property
     def selected_texts(self):
-        return list(self.dataf.iloc[self.selection_idx]["text"])
+        return list(self.dataf.iloc[self.selected_idx]["text"])
 
     @property
     def selected_dataframe(self):
-        return self.dataf.iloc[self.selection_idx]
+        return self.dataf.iloc[self.selected_idx]
 
     def _repr_html_(self):
         return display(self.elem)
