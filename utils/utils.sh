@@ -6,13 +6,11 @@ find {.,lectures,assignments,materials} -maxdepth 10 -name "*.md" | xargs sed -i
 find {.,lectures,assignments,materials} -maxdepth 10 -name "*.md" | xargs sed -i 's/ked2024/ked2025/g'
 find {.,lectures,assignments,materials} -maxdepth 10 -name "*.ipynb" | xargs sed -i 's/KED2024/KED2025/g'
 find {.,lectures,assignments,materials} -maxdepth 10 -name "*.ipynb" | xargs sed -i 's/ked2024/ked2025/g'
-
-
-
 sed -i 's/KED2024/KED2025/g' _quarto.yml
 
 # rename filenames (-n is for dry run; remove to perform actual renaming)
 ls **/*KED2024* | xargs rename -nv KED2024 KED2025
+ls **/*ked2024* | xargs rename -nv ked2024 ked2025
 
 # check remaining text sections containing a year
 grep -Prio ".{20}(ked| )2024 .{20}" .
