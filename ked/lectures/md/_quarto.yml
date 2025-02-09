@@ -26,7 +26,10 @@ format:
     strip-comments: true
     mouse-wheel: true
     transition: fade
-    theme: [default, ../resources/custom_style_reveal.scss]
+    theme: 
+    - default
+    - ../resources/custom_style_reveal.scss
+    - ../resources/open-colors.css
     highlight-style: github-dark
     code-line-numbers: false
     # view: scroll

@@ -2,13 +2,14 @@ project:
   type: website
   output-dir: ../docs
   resources:
-    - "../lectures/html/*html"
-    - "../lectures/pdf/*pdf"
-    - "materials"
-    - "assignments"
+    - "../lectures/html/*.html"
+    - "../lectures/pdf/*.pdf"
+    - "materials/*.pdf"
+    - "assignments/*/*.pdf"
     - "KED2025_syllabus.pdf"
   render:
     - "*.qmd"
+    - "!*.py"
   preview:
     port: 3333
 
