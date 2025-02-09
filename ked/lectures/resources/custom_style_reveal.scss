@@ -1,12 +1,12 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lato:wght@300;400&family=News+Cycle&family=Permanent+Marker&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lato:wght@300;400&family=News+Cycle&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:wght@300;400&family=News+Cycle&family=Permanent+Marker&family=Source+Sans+3:wght@200..900&display=swap');
 
 
-$mainfont: Lato, sans-serif;
+$mainfont: Source Sans Pro;
 $presentation-slide-text-align: center;
 $presentation-font-size-root: 30px;
-
 
 /*-- scss:rules --*/
 
@@ -19,26 +19,27 @@ https://mycolor.space/?hex=%23FC2290&sub=1
 *********************************************/
 
 :root {
-    --green: #4d7e65;
-    --blue: #3c70b5;
-    --red: #b5533c;
-    --black: #1d1e1f;
-    --grey: #4a4a4b;
-    --color-subtitle: #0090ff;
-    --color-headings: #00003F;
-    --color-small-headings: #806480;
-    --color-strong: #009f00;
-    --color-control: silver;
-    --color-marker: silver;
-    --pink: #fc2290;
-}
+    --green: var(--oc-green-9);
+    --blue: var(--oc-indigo-9);
+    --red: var(--oc-red-9);
+    --color-default-text: var(--oc-gray-8);
+    --color-captions: var(--oc-gray-7);
 
+    --color-subtitle: var(--oc-blue-4);
+    --color-headings: var(--oc-gray-7);
+    --color-small-headings: var(--oc-pink-7);
+    --color-strong: var(--oc-green-8);
+    --color-control: var(--oc-gray-4);
+    --color-marker: var(--oc-gray-4);
+    --color-highlight: var(--oc-pink-6);
+
+    --color-headline-bg: var(--oc-gray-8);
+}
 
 
 /*********************************************
 * GLOBAL STYLES
 *********************************************/
-
 
 .reveal-viewport {
     background: var(--bs-white);
@@ -46,21 +47,17 @@ https://mycolor.space/?hex=%23FC2290&sub=1
 }
 
 .reveal {
-    font-family: Lato, sans-serif;
     font-weight: normal;
-    color: var(--black);
+    color: var(--color-default-text);
 }
 
-.reveal ::selection {
-   color: #f7f6f7;
-   background: rgb(10, 102, 180);
-   text-shadow: none;
-}
 
-.reveal ::-moz-selection {
-   color: #f7f6f7;
-   background: rgb(10, 102, 180);
-   text-shadow: none;
+/* color of hightlighting */
+.reveal ::-moz-selection,
+.reveal ::selection{
+    color: var(--color-default-text);
+    background: var(--oc-yellow-3);
+    text-shadow: none;
 }
 
 .reveal ::marker {
@@ -82,7 +79,7 @@ section.has-dark-background ::marker {
 
 .reveal .slide-number {
     background-color: transparent;
-    color: var(--black);
+    color: var(--color-default-text);
 }
 
 
@@ -93,7 +90,7 @@ section.has-dark-background ::marker {
 .reveal h1.title {
     font-size: 3em;
     font-weight: bold;
-    color: var(--black);
+    color: var(--color-default-text);
 }
 
 p.subtitle{
@@ -110,7 +107,6 @@ p.subtitle{
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    font-family: News Cycle, sans-serif;
     font-weight: lighter;
     color: var(--color-headings)
 }
@@ -118,6 +114,9 @@ p.subtitle{
 .reveal h2 {
     font-size: 2em;
     margin-bottom: +50px;
+    color: white;
+    padding: 5px;
+    background-color: var(--color-headline-bg);
 }
 
 .reveal h3 {
@@ -142,8 +141,8 @@ p.subtitle{
 }
 .reveal section[data-background-image*="image"] h2 {
     color: white !important;
-    font-family: Lato;
     font-weight: bold;
+    background-color: transparent;
 
 }
 
@@ -173,8 +172,10 @@ ul li li {
 * OTHER TEXT
 *********************************************/
 section.has-dark-background strong,
-section.has-dark-background b {
-  color: white
+section.has-dark-background b,
+section.has-dark-background h2 {
+  color: white;
+  background-color: transparent;
 }
 
 strong, b {
@@ -186,7 +187,7 @@ strong, b {
 }
 
 .reveal a:hover {
-  color: var(--pink);
+  color: var(--color-highlight);
   text-shadow: none;
   border: none;
 }
@@ -199,7 +200,7 @@ strong, b {
 .reveal figure figcaption,
 .caption {
   font-style: italic;
-  color: var(--grey);
+  color: var(--color-captions);
   font-size: 75%;
 }
 
@@ -257,7 +258,7 @@ section.has-dark-background code {
 
 .reveal blockquote {
   font-family: Georgia;
-  color: var(--black);
+  color: var(--color-default-text);
   max-width: 90%;
   text-align: left;
   box-shadow: none;
@@ -270,17 +271,17 @@ section.has-dark-background code {
   .reveal blockquote p:first-child::before {
     font-size: 1.5em;
     font-family: Georgia, serif;
-    color: var(--pink);
+    color: var(--color-highlight);
     content: '«'; }
 .reveal blockquote p:first-child::after {
   font-size: 1.5em;
   font-family: Georgia, serif;
-  color: var(--pink);
+  color: var(--color-highlight);
   content: '»'; }
 
 
 .reveal blockquote cite{
-    color: var(--pink);
+    color: var(--color-highlight);
     text-align: right;
     font-style: normal;
     font-size: 0.75em;
@@ -295,7 +296,7 @@ section.has-dark-background code {
 /*********************************************
 * CUSTOM CLASSES
 *********************************************/
-/*-- hack for headings since section attribute ar no longer assigned to headings --*/
+/*-- hack for headings since section attribute are no longer assigned to headings --*/
 section.white-text h1,
 section.white-text h2 {
     color:#f9f9ff !important;
@@ -311,7 +312,6 @@ section.white-text h2 {
 }
 
 .answer {
-    
     background-color: rgba(00, 00, 00, .2);
     padding: 0.8em;
     margin-top: 0.3em;
