@@ -2,95 +2,67 @@
 title: "KED2025 Assignment 1: Experimenting with LLMs"
 author: Alex Flückiger | University of Lucerne
 email: 'alex.flueckiger@doz.unilu.ch'
-date: "2024-02-08"
+date: "2025-02-08"
+link-citations: true
 ---
 
+# Requirements {.unnumbered}
 
+-   Deadline: 28 February 2025 (by midnight)
+-   File format: PDF
+-   Language: German or English
+-   Naming schema: `surname_ked2025_1.pdf`\
+    Replace `surname` with your surname.
+-   Submit your solutions on time via the respective exercise module on OLAT. The module is only open until midnight.
 
-# Requirements {-}
+# Introduction {.unnumbered}
 
-- Deadline: 1 March 2025 (by midnight)
-- File format: PDF
-- Language: German or English
-- Naming schema: `surname_ked2025_1.pdf`   
-  Replace `surname` with your surname.
-- Submit your solutions on time via the respective exercise module on OLAT. The module is only open until midnight.
+You learn how to use chatbots like ChatGPT more proficiently.
 
-# Introduction {-}
+Modern chatbots are based on large language models (LLMs). There are various competing models and platforms available, among which ChatGPT developed by OpenAI is one of the most popular.
 
-You learn how to use ChatGPT more proficiently.
+LLMs are part of a new generation of Generative AI that is having a growing impact on society. It is paramount to learn how to use AI tools effectively and also to understand their shortcomings.
 
-ChatGPT is a large language model (LLM) from the company OpenAI. LLMs are part of a new generation of Generative AI that have a growing impact in our society. Using these AI tools effectively and also learn about their shortcomings is paramount.
-
-The text input you provide to ChatGPT is called prompt.
+The text input you provide to a chatbot is called prompt.
 
 # Task 1
 
-Share your experience with ChatGPT in one paragraph.
+Share your experience with chatbots in at least one paragraph.
 
-- If you are using ChatGPT: For which tasks are you using it (e.g. tasks, fun)? When is it useful? What is the positive or negative experience that surprised you the most? When do you prefer Google and when ChatGPT?
-- If not you haven't used it yet: Share your take of the tool from an non-user perspective and explain briefly why you are not using it.
-
-
+-   *If you are using chatbots*: What is your preferred chatbot? For which tasks are you using it (e.g. particular tasks, fun)? When is it useful? What is the positive or negative experience that has surprised you the most? Has your experience changed over time? When do you prefer a classic Google Search and when a chatbot? Do you apply different techniques when prompting compared to searching?
+-   *If you are not using chatbots regularly:* Share your take from a non-user perspective and explain briefly why you are not using chatbots.
 
 # Task 2
 
-Experiment with ChatGPT in-depth and reflect about its answers. 
+Experiment with a chatbot of your joice in-depth and reflect about its answers.
 
-**It is import that you always start a new chat after each prompt** (see Fig. 1 below). The history of past answers is guiding the upcoming answers in the same chat window, which may distort your experiments. Nevertheless, be aware that ChatGPT yields different answers with every attempt, even when it is prompted with the exact same text. 
+**It is important that you always start a new chat after each prompt**. The history of past answers is guiding the upcoming answers in the same chat window, which may bias your experiments. Although even taking this measure, please be aware that chatbots on any platform usually provide different answers with every attempt, even prompted with the exact same text. Thus, repeat your prompts in a new chat a few times to get a feeling for this variance.
 
-ChatGPT may be very wordy sometimes. To get shorter answers, simply tell the model how long the answer should be (e.g. `Give me 10 examples...`, `Summarize in a 3 sentences...`, `Explain in a paragraph`).
+Chatbots may be very wordy sometimes. To get shorter answers, simply tell the model how long the answer should be (e.g. `Give me 10 examples...`, `Summarize in a 3 sentences...`, `Explain in a paragraph`).
 
+1.  Go to the platform with the chatbot of your choice. If you don't have any, go to <https://chatgpt.com/> and create an account.
 
+2.  Open the paper by @Williams2024. The paper talks about various failure modes of popular chatbots and was originally published in June 2024. Are chatbots still failing at the same prompts?
 
-1. Go to [https://chat.openai.com/](https://chat.openai.com/). If you don't have an account yet, create one.
-
-2. Pick one of the following tasks, reflect on ChatGPTs answers and summarize your experience in a short paragraph.
-
-   - Think about something ChatGPT shouldn't know. Do you get an answer anyway? What does that mean?
-
-   - Let ChatGPT create a short story using the following prompt (replace `NAME` with any actual name):
-
-     > `Tell me about a regular day in the life of the fictional character NAME in a few sentences.`
-
-     Ask the same sentence a few times and, then, modify the name hinting at male/female gender and various cultural backgrounds. Do you think the results are biased in some ways?
-
-   - Ask challenging, factual questions in English first. After that, ask the same questions in other languages you know. You can also make use of a translator like [DeepL](https://www.deepl.com/translator) to ask in a language you do not know.
-
-     > English: `What is the largest municipality in Switzerland?`
-     >
-     > Polish: `Jaka jest największa gmina w Szwajcarii?`
-
-      Are the answers similar across languages? Are they of the same quality in terms of factuality?
-
-   - Come up with some simple text-based math tasks (in DE: Sätzli-Rechnungen) like the following:
-
-     > `I have 119 apples, 5 oranges, 2 blankets, 18 mandarins and a box. Calculate the numbers of fruits left when I eat an apple and 3 orange.`
-
-     Modify the terms, numbers, order, extend the collection and come up with your own example tasks. Do you get correct results? Is there something that confuses the model?
-
-
-
-
-
-![Click `New chat` in the top left corner after each prompt to avoid bias in your experiments](chatgpt.png){width=10cm}
-
-
+    -   Read the abstract, go to the appendix in chapter 9, and check out the provided prompts.
+    -   Pick at least two prompts and check the human reference as well (or come up with a similar challenging one yourself).
+    -   Prompt the selected chatbot with them and analyze the responses. Are they correct? Are there some oddities?
+    -   Share the platform and the name of the model you used in your submission.
 
 # Feedback
 
 Briefly answer the following questions.
 
-1. Do you have any questions?
-2. How long did it take to solve this exercise? Give a fair estimation.
-3. Was this assignment interesting?
-
-
+1.  Do you have any questions?
+2.  How long did it take to solve this exercise? Give a fair estimation.
+3.  Was this assignment interesting?
 
 # Bonus
 
-ChatGPT is popular, yet it is only one model among many others. Developed by companies or research labs, those models are either proprietary (i.e., commercial) or open-source (i.e. free to use for anyone). 
+ChatGPT is popular, yet it is only one model among many others. Developed by companies or research labs, those models are either proprietary (i.e., commercial) or open-source (i.e., well-documented and free to use for anyone).
 
-There is fierce competition for developing the best model, and new models are published every week. Evaluating the best model is challenging by itself, though. 
+There is fierce competition for developing the best model, and new models are published every week. Evaluating the best model is challenging by itself, though.
 
-Contribute to science by deciding which of two outputs is better given any prompt. Go to  [https://chat.lmsys.org/](https://chat.lmsys.org/ ) and start your evaluation.
+Contribute to science by deciding which of two outputs is better given any prompt. You can also experiment with other modalities than text (e.g., images). Go to <https://chat.lmsys.org/> and start your evaluation.
+
+# References

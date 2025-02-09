@@ -21,6 +21,8 @@ LECTURES_NOTES_DIR = LECTURES_DIR / "notes"
 ASSIGNMENTS_DIR = MAIN_DIR / "assignments"
 MATERIALS_DIR = MAIN_DIR / "materials"
 
+BIB_FILE="/home/alex/zotero.bib"
+
 
 def task_prepare_dir():
     """Create all directories"""
@@ -141,12 +143,16 @@ def task_create_assignment():
             "file_dep": [infile],
             "actions": [
                 f"pandoc -f  markdown+rebase_relative_paths -o {outfile} {infile} \
+            --number-sections \
+            --metadata date='{today}' \
+            --citeproc \
+            --bibliography {BIB_FILE} \
+            -V citecolor='[HTML]{{111bab}}' \
             -V urlcolor='[HTML]{{111bab}}' \
             -V linkcolor='[HTML]{{111bab}}' \
             -V filecolor='[HTML]{{111bab}}' \
-            -V geometry:margin=2.5cm \
-            --number-sections \
-            --metadata date='{today}'",
+            -V toccolor='[HTML]{{111bab}}' \
+            -V geometry:margin=2.5cm"
             ],
             "targets": [outfile],
             # 'title': show_cmd
