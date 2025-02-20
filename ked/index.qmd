@@ -19,6 +19,6 @@ Along the way, we deal with questions like these:
 -   How has the discourse on a topic changed over time and how does communication between various actors differ?
 -   What are regular expressions and why are they so useful for text analytical applications?
 
-[{{< fa external-link >}} Go to UniLu website](https://portal.unilu.ch/details?code=FS241589)
+[{{< fa external-link >}} Go to ](https://portal.unilu.ch/details?code=FS241589)[UniLu website](https://portal.unilu.ch/details?code=FS251512)
 
 [{{< fa file-pdf >}} Get course syllabus as PDF](https://aflueckiger.github.io/KED2025/KED2025_syllabus.pdf)
