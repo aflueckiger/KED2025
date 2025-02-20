@@ -1,0 +1,24 @@
+---
+title: 'The ABC of Computational Text Analysis'
+subtitle: "BA Seminar, Spring 2025, University of Lucerne"
+layout: default
+author: Alex Flückiger
+date: "2025-01-10"
+sidebar: false
+---
+
+![](_images/background.png)
+
+In this hands-on seminar, bachelor students of social and cultural sciences learn the basics of programming, among other essential technical skills. Building on a modern technology stack, it aims to prepare students to conduct data-driven text analysis and to make everyday life easier by fostering technological fundamentals. While learning about the importance of computation in solving problems, we also discuss the current developments in information technology. In short, the course promotes digital literacy on a practical and theoretical level.
+
+This seminar focuses on the computational processing of digital and digitized texts using Python and the command-line. For any empirical research, the systematic preparation and aggregation of data and the swift retrieval of information are critical. These tasks require the handling of various data forms, including data that is not yet structured in a tabular format. The seminar covers the complete workflow, from gathering textual data to analyzing an entire text collection to producing interactive visualizations. Sounds cool? It certainly is.
+
+Along the way, we deal with questions like these:
+
+-   How can extensive collections of texts be evaluated quantitatively in order to strengthen content analysis?
+-   How has the discourse on a topic changed over time and how does communication between various actors differ?
+-   What are regular expressions and why are they so useful for text analytical applications?
+
+[{{< fa external-link >}} Go to UniLu website](https://portal.unilu.ch/details?code=FS241589)
+
+[{{< fa file-pdf >}} Get course syllabus as PDF](https://aflueckiger.github.io/KED2025/KED2025_syllabus.pdf)

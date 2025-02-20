@@ -1,0 +1,26 @@
+---
+title: 'Schedule'
+layout: page
+---
+
+We have 12 seminar sessions together.
+
+The plan below is provisional. I am happy to adapt the topics, as well as the schedule, to the needs and interests of the students. Likely, we will change some topics and orderings as we go.
+
+| Date | Topic |
+|-----------------------|-------------------------------------------------|
+| 20 February 2025 | [Introduction + Where is the digital revolution?](lectures.html#week-1-introduction-where-is-the-digital-revolution) |
+| 27 February 2025 | *no lecture (Fasnacht)* |
+| 06 March 2025 | [Text as Data](lectures.html#week-2-text-as-data) |
+| 13 March 2025 | [Setting up your Development Environment](lectures.html#week-3-setting-up-your-development-environment) |
+| 20 March 2025 | [Introduction to the Command-line](lectures.html#week-4-introduction-to-the-command-line) |
+| 27 March 2025 | [Basic NLP with Command-line](lectures.html#week-5-basic-nlp-with-command-line) |
+| 03 April 2025 | [Introduction to Python in VS Code](lectures.html#week-6-introduction-to-python-in-vs-code) |
+| 10 April 2025 | [Working with (your own) Data](lectures.html#week-7-working-with-data) |
+| 17 April 2025 | [Data Analysis of Swiss Media](lectures.html#week-8-data-analysis-of-swiss-media) |
+| 24 April 2025 | *no lecture (Osterpause)* |
+| 01 May 2025 | [Ethics and the Evolution of NLP](lectures.html#week-9-ethics-and-the-evolution-of-nlp) |
+| 08 May 2025 | [NLP with Python](lectures.html#week-10-nlp-with-python) |
+| 15 May 2025 | [NLP with Python II + Working Session](lectures.html#week-11-nlp-with-python-ii-working-session) |
+| 22 May 2025 | [Mini-Project Presentations + Discussion](lectures.html#week-13-mini-project-presentations-discussion) |
+| 29 May 2025 | no lecture (Christi Himmelfahrt) |

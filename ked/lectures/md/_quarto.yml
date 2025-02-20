@@ -1,0 +1,36 @@
+project:
+  output-dir: ../html
+
+from: markdown+emoji
+bibliography: /home/alex/zotero.bib
+center: true
+date-format: "DD MMMM YYYY"
+lang: en-US
+title-slide-attributes:
+  data-background-image: ../images/UNILU_logo_EN.png
+  data-background-size: 10%
+  data-background-position: 2% 2%
+
+format:
+  revealjs:
+    output-dir: ../html
+    overview: true
+    menu: false
+    embed-resources: true
+    slide-number: c/t
+    show-slide-number: all
+    controls: true
+    controls-layout: bottom-right
+    code-link: true
+    link-external-newwindow: true
+    strip-comments: true
+    mouse-wheel: true
+    transition: fade
+    theme: 
+    - default
+    - ../resources/custom_style_reveal.scss
+    - ../resources/open-colors.css
+    highlight-style: github-dark
+    code-line-numbers: false
+    # view: scroll
+    # scrollProgress: true 

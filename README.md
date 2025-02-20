@@ -1,18 +1,18 @@
-# KED2024
+# KED2025
 
 This repository contains all the material for the following course that I teach at the University of Lucerne:
 
-*Seminar Kleines Einmaleins des Digitalen - Computergestützte Textanalyse: Universität Luzern, 2024*
+*Seminar Kleines Einmaleins des Digitalen - Computergestützte Textanalyse: Universität Luzern, 2025*
 
 The course is a gentle introduction to computational methods with a focus on text analysis. The audience are BA students of social sciences with backgrounds in various disciplines (sociology, political science, cultural studies, etc.)
 
-Check out the official course website: [https://aflueckiger.github.io/KED2024/](https://aflueckiger.github.io/KED2023/).
+Check out the official course website: [https://aflueckiger.github.io/KED2025/](https://aflueckiger.github.io/KED2025/).
 
 # If you're in the class
 
 To get a local copy of the slides and material used in this course, you can simply clone this repository:
 
-`git clone https://github.com/aflueckiger/KED2024.git`
+`git clone https://github.com/aflueckiger/KED2025.git`
 
 # For anyone else
 
@@ -22,8 +22,8 @@ I'm open-sourcing the course material as I deeply believe in sharing ideas to co
 
 ``` bash
 pip install poetry
-git clone https://github.com/aflueckiger/KED2024.git
-cd KED2023
+git clone https://github.com/aflueckiger/KED2025.git
+cd KED2025
 poetry config virtualenvs.in-project true
 poetry install
 ```
