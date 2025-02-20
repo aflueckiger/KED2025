@@ -31,14 +31,13 @@ On the one hand, I present the goals and organization of the seminar. On the oth
 
 Computational text analysis comes with many challenges that are unique due to the fuzziness of natural language. In this session, we learn about its methodological foundation and conduct our first computational text analysis to understand how this translates into practice.
 
-::: slide-deck
+<!-- ::: slide-deck
 <iframe class="slide-deck" src="lectures/html/ked2025_02.html">
 
 </iframe>
 :::
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2025/lectures/md/ked2025_02.md){target="_blank"}
-
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2025/lectures/md/ked2025_02.md){target="_blank"} -->
 
 ### Required Reading
 
@@ -52,10 +51,12 @@ Computational text analysis comes with many challenges that are unique due to th
 
 The title says it all. We are getting ready for the practical part of the course: Programming. As installing Python and non-standard command-line tools may be tricky, we dedicate time in class rather than doing it as homework only. Additionally, I will also introduce some jargon that guide your way in the programmer's brave new word.
 
+```{=html}
 <!--
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_03.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_03.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2025/lectures/md/ked2025_03.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/vR3gwKp1ND)
 
 -->
+```
 
 ### Optional: pimp your workflow
 
@@ -64,8 +65,6 @@ The title says it all. We are getting ready for the practical part of the course
 ## Week 4: Introduction to the Command-line
 
 The command-line is a powerful tool at your disposal. It is the working horse for many data wrangling tasks. In this session, you learn the basics of shells and how to perform many operations effectively by substituting clicks on the screen with commands. Admittedly, it is not overly exciting at this stage, yet it is essential for more sophisticated automation later on.
-
-
 
 ```{=html}
 <!-- 
@@ -84,8 +83,6 @@ The command-line is a powerful tool at your disposal. It is the working horse fo
 ## Week 5: Basic NLP with the Command-line
 
 Counting words is the most basic method to look at texts from a computational perspective. The command-line provides tools to sift through a massive text collection with ease. Combined with pattern-based search, you get quick results regardless whether you want to get a quantitative overview across documents, count particular words or see their usage in context. Does it sound like the Swiss knife in your research toolkit that marks the starting point of almost any textual analysis? It certainly is.
-
-
 
 ```{=html}
 <!-- 
@@ -108,8 +105,6 @@ Counting words is the most basic method to look at texts from a computational pe
 
 As the folks say, Python is among the coolest programming languages, relatively easy to learn, and provides excellent NLP packages so that you do not have to implement everything yourself. In this session, we begin with an introduction to the basic syntax of Python. Starting with basics may be dry stuff; however, it will allow you to use third-party libraries and get a handle on more sophisticated NLP analyses later on.
 
-
-
 ```{=html}
 <!-- 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_06.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_06.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked2025/lectures/md/ked2025_06.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/3FTh820xDn){target="_blank"}
@@ -120,7 +115,6 @@ As the folks say, Python is among the coolest programming languages, relatively 
 ## Week 7: Working with Data
 
 Up to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text. In particular, we use optical character recognition (OCR).
-
 
 ```{=html}
 <!--
@@ -159,7 +153,6 @@ You can open the static code or run the code directly in your browser without an
 
 Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful than ever and, thus, pervasive in many aspects of life. Unfortunately, it also exhibits severe and poorly understood biases that may cause harm. With the recent *turn to data-driven deep learning*, NLP overcame many theoretical limitations, but this comes at a cost. It is our duty to better understand the workings and impact of this technology.
 
-
 ```{=html}
 <!--
 
@@ -172,8 +165,6 @@ Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful 
 ## Week 10: NLP with Python
 
 Python is the language of choice when it comes to advanced NLP. Have you ever wondered how the frequency of terms has evolved over the years? Or how the language differs between two groups whereby the groups may be formed by any metadata (people, organization, gender etc.)? In such an exploratory endeavor, using an interactive and visual mode is very effective and complements statistics. In short, we finally arrived at the serious stuff in our journey. To make sure you don't get lost in the forest of yet unknown concepts, you will also learn some more jargon of NLP.
-
-
 
 ```{=html}
 <!-- 
@@ -191,8 +182,6 @@ You can open the static code or run the code directly in your browser without an
 ## Week 11: NLP with Python II + Working Session
 
 We continue our deep dive into NLP with Python in today's session. It is the last piece of our puzzle. During this course, you have learned about the entire workflow, from assembling datasets of documents to analyzing their content and visualizing your findings. As soon as you have a structured text collection along with basic metadata (e.g., publication date), you can take numerous perspectives to look at your data.
-
-
 
 ```{=html}
 <!-- 
