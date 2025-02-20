@@ -7,7 +7,7 @@ You have to submit two assignments to complete the seminar successfully. The pur
 
 | \# | Topic | Published | Deadline (by midnight) | Solution |
 |---------------|---------------|---------------|---------------|---------------|
-| 1 | [Experimenting with LLMs](assignments/assignment_1/ked2025_assignment_1.pdf) | 22 February 2025 | 28 February 2025 | (individiual feedback) |
+| 1 | [Experimenting with LLMs](assignments/assignment_1/ked2025_assignment_1.pdf) | 20 February 2025 | 28 February 2025 | (individiual feedback) |
 | 2 | Word Counts using Python | 11 April 2025 | 19 April 2025 | \- |
 
 # Mini-Project
