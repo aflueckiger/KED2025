@@ -2,7 +2,7 @@
 title: Setting up your Development Environment
 subtitle: Seminar KED2025
 author: Alex Flückiger
-date: 27.01.2023
+date: 27.01.2025
 toc: True
 toc-depth: 2
 ---
@@ -18,13 +18,12 @@ This guide aims to ease setting up your development environment for Windows 11 a
 -   Python 3
 -   [VS Code Editor](https://code.visualstudio.com/)
 -   various Bash tools
--   [Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software)) (Optical Character Recognition)
 
 The proposed installation strikes a good balance between relative simplicity and cross-platform usage of the tools. Be aware that the installation and setup of software are sometimes more difficult and poorer documented than its usage. Beyond potential problems during the installation, there are also different ways to set up the development environment.
 
 We write Python code using the VS Code. Although lightweight, it is a fully-fledged integrated development environment (IDE) supporting all major operating systems and many programming languages. Other than competing editors, it doesn't require much configuration and, out-of-the-box, it comes with indispensable features like auto-completion, code formatting, linting (error flagging) and debugging. In VS Code, you can even open and run [Jupyter Notebooks](https://jupyter.org/) to perform interactive data science showing the output next to the code that created it.
 
-Before you proceed with the installation, back up your files[^1] and make sure that your computer fulfils the following two requirements:
+Before you proceed with the installation, back up your files[^1] and make sure that your computer fulfills the following two requirements:
 
 [^1]: "Better save than sorry." Backing up files is a must and may save you tears as a computer is a delicate piece of hardware that does not live forever. Moreover, users are also prone to mess up files or software at any point. In these cases, you just want to go back one step and restore your data.
 
@@ -96,7 +95,7 @@ Homebrew is a powerful package manager for macOS systems. With Homebrew, you can
 5.  Once you’ve installed Homebrew, make Homebrew's Python the primary environment by setting the `PATH` variable. In a Terminal, run the following commands to add a new `PATH` variable to the `~/.profile` file:
 
     ``` bash
-    echo 'export PATH="/usr/local/opt/python/libexec/bin:\$PATH"' > ~/.profile 
+    echo 'export PATH="/usr/local/opt/python/libexec/bin:\$PATH"' > ~/.profile
     source ~/.profile
     ```
 
@@ -111,6 +110,7 @@ https://ahmadawais.com/python-not-found-on-macos-install-python-with-brew-fix-pa
 
 --->
 ```
+
 \
 Source: [Homebrew](https://docs.brew.sh/FAQ)
 
@@ -121,7 +121,7 @@ Homebrew makes it easy to install Python 3.
 1.  Run the following command in a Terminal:
 
     ``` bash
-    brew install python
+    brew install python@3.12
     ```
 
 2.  When Python 3 has been installed correctly on your system, you should see version 3.x after issuing the following command:
@@ -139,24 +139,6 @@ Turn on auto-completion for names using the tabulator key:
 ``` bash
 echo 'autoload -Uz compinit && compinit' >> ~/.zshrc && . ~/.zshrc
 ```
-
-## Install additional command-line tools
-
-### Tesseract
-
-1.  Install the text recognition engine Tesseract, which allows extracting text from images, with:
-
-    ``` bash
-     brew install tesseract
-    ```
-
-2.  Install the various language models for Tesseract with:
-
-    ``` bash
-     brew install tesseract-lang
-    ```
-
-Source: [Tesseract](https://github.com/tesseract-ocr/tesseract/wiki)
 
 ### More tools
 
@@ -178,18 +160,14 @@ Unless you have another favourite coding editor, install and customize VS Code e
 
 1.  Download and install VS Code from the official website: <https://code.visualstudio.com/Download>. You may want to add a shortcut icon to the desktop.
 
-2.  Open VS Code. You can skip the initial configuration of VS Code by clicking *Next Section*.
+2.  Open VS Code.
 
-3.  To make programming in Python easier, you should install two more extensions: VS Code Python extension and Tabnine. Launch the *VS Code Quick Open* again by pressing `CMD` + `P` , paste the command, and press enter:
+3.  Set up `Copilot` for free as shown in (see @fig:copilot), which is an AI assistant that helps you programming. You have to create a GitHub account to use it. All the other configuration, you may skip by clicking *Next Section*.
+
+4. To make programming in Python easier, you should install VS Code Python extension. Launch again the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the command, and press enter:
 
     ```         
     ext install ms-python.python
-    ```
-
-    Similarly, install the extension Tabnine using the following command:
-
-    ```         
-    ext install tabnine.tabnine-vscode
     ```
 
 \pagebreak
@@ -207,7 +185,7 @@ To use the powerful Bash tools on your Windows computer, we install a Ubuntu Lin
     wsl --install -d Ubuntu
     ```
 
-    If something doesn't work, search for `Turn Windows feature on or off` in the menu, and ensure that `Windows Subsystem for Linux` is enabled (see @fig:figure_wsl).
+    If something doesn't work, search for `Turn Windows feature on or off` in the menu, and ensure that `Windows Subsystem for Linux` is enabled (see @fig:figure_wsl). You have to restart the computer after enabling.
 
 2.  Reboot your computer to complete the installation of WSL and Ubuntu.
 
@@ -215,15 +193,13 @@ To use the powerful Bash tools on your Windows computer, we install a Ubuntu Lin
 
 4.  Once the installation is complete, you will be prompted to create a new user account and set a password. **IMPORTANT**: Remember these credentials as they are used to switch to the administrator mode on your Linux system. You may choose the same account name and password as on your host Windows system.
 
-5.  Annoyingly, the copy/paste behaviour is different in command lines on Windows. Open the menu with a `right-click` on the Windows title bar → `Properties` → `Options` ) and enable `Use Ctrl+Shift+C and Ctrl+Shift+V as Copy/Paste`. For the following steps, you can simply copy the commands using the keyboard shortcut. Please note, that using `Ctrl+C` is not possible as it is used to cancel a running program.
-
-6.  After the login, update your freshly installed Ubuntu system with the following commands and confirm with `Y`:
+5.  After the login, update your freshly installed Ubuntu system with the following commands and confirm with `Y`:
 
     ``` bash
     sudo apt update && sudo apt upgrade
     ```
 
-7.  Create a symbolic link in the Bash to easily access your files on Windows. For example, you may want to link the folder `Documents` on Windows to the symbolic folder `documents` on Ubuntu. For people using OneDrive, they can also set a symbolic link to this directory. For this, replace the `USERNAME` with the actual username on your Windows computer and run the following commands:
+6.  Create a symbolic link in the Bash to easily access your files on Windows. For example, you may want to link the folder `Documents` on Windows to the symbolic folder `documents` on Ubuntu. For people using OneDrive, they can also set a symbolic link to this directory. For this, replace the `USERNAME` with the actual username on your Windows computer and run the following commands:
 
     ``` bash
     cd ~
@@ -241,7 +217,12 @@ Source: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 ![Ensure correct configuration](images/windows_wsl.png){#fig:figure_wsl width="40%"}
 
-<!--- Credentials on the Ubuntu system in the virtual machine: user: student password: 1234 --->
+```{=html}
+<!--- Credentials on the Ubuntu system in the virtual machine: vboxuser: student password: changeme 
+
+5.  Annoyingly, the copy/paste behaviour is different in command lines on Windows. Open the menu with a `right-click` on the Windows title bar → `Properties` → `Options` ) and enable `Use Ctrl+Shift+C and Ctrl+Shift+V as Copy/Paste`. For the following steps, you can simply copy the commands using the keyboard shortcut. Please note, that using `Ctrl+C` is not possible as it is used to cancel a running program.
+--->
+```
 
 \pagebreak
 
@@ -269,60 +250,37 @@ Source: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 5.  Close and reopen Ubuntu.
 
-### Tesseract
-
-1.  Install the text recognition engine Tesseract, which allows extracting text from images, with:
-
-    ``` bash
-    sudo add-apt-repository -y ppa:alex-p/tesseract-ocr5
-    sudo apt install -y tesseract-ocr
-    ```
-
-2.  Install the German language model for Tesseract with:
-
-    ``` bash
-    sudo apt install tesseract-ocr-deu
-    ```
-
-Source: [Tesseract](https://github.com/tesseract-ocr/tesseract/wiki)
-
 ## Install the editor VS Code
 
-Unless you have another favourite coding editor, install and customize VS Code editor.
+Unless you have another favorite coding editor, install and customize VS Code editor.
 
 1.  Download and install VS Code from the official website: <https://code.visualstudio.com/Download>. You may want to add a shortcut icon to the desktop.
 
-2.  Open VS Code. You can skip all the configuration of VS Code by clicking *Next Section*.
+2.  Open VS Code.
 
-3.  We want to execute all the Python code within the Ubuntu subsystem. For this, we need to install a particular extension. Launch the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the following command, and press enter:
+3.  Set up `Copilot` for free as shown in (see @fig:copilot), which is an AI assistant that helps you programming. You have to create a GitHub account to use it. All the other configuration, you may skip by clicking *Next Section*.
+
+4.  We want to execute all the Python code within the Ubuntu subsystem. For this, we need to install a particular extension. Launch the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the following command, and press enter:
 
     ``` bash
     ext install ms-vscode-remote.vscode-remote-extensionpack
     ```
 
-4.  In the left lower corner, you should now see a green label with `WSL: Ubuntu` (see @fig:figure1). If not, press `F1`, select *WSL: New WSL Window* to connect the subsystem.
+5.  In the left lower corner, you should now see a green label with `WSL: Ubuntu` (see @fig:vs_wsl). If not, press `F1`, select *WSL: New WSL Window* to connect the subsystem.
 
-5.  To make programming in Python easier, you should install two more extensions: VS Code Python extension and Tabnine. Launch again the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the command, and press enter:
+6.  To make programming in Python easier, you should install VS Code Python extension. Launch again the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the command, and press enter:
 
     ```         
     ext install ms-python.python
     ```
 
-    Similarly, install the extension Tabnine using the following command:
-
-    ```         
-    ext install tabnine.tabnine-vscode
-    ```
-
-​You can ignore the sign-in request.
-
 Source: [Microsoft](https://code.visualstudio.com/docs/remote/wsl)
 
-![WSL Ubuntu is successfully connected](images/vs_code_wsl.png){#fig:figure1}
+![WSL Ubuntu is successfully connected](images/vs_code_wsl.png){#fig:vs_wsl} ![Install Copilot](images/vs_code_copilot.png){#fig:copilot}
 
 ## Show file extensions
 
-You may not see the file extensions on Windows by default. For example, a document named`test.docx` is shown as `test` in Explorer. If this is the case, enable the file extensions.
+You may not see the file extensions on Windows by default. For example, a document named `test.docx` is shown as `test` in Explorer. If this is the case, enable the file extensions.
 
 1.  Open File Explorer (`Windows key` + `E`).
 2.  Click on "View", select "Show", and choose the "File name extensions"
@@ -381,13 +339,13 @@ As a kind of initiation ritual of coding, say hello to the programming world in 
 
 1.  Open the VS Code editor.
 
-2.  Windows only: Ensure that you connected to `WSL: Ubuntu` (green or blue patch in the lower-left corner, see @fig:figure1)
+2.  Windows only: Ensure that you connected to `WSL: Ubuntu` (green or blue patch in the lower-left corner, see @fig:vs_wsl)
 
 3.  Open the folder `KED2025` via the menu.
 
 4.  Create a new file called `hello_world.py`.
 
-5.  Copy the following code in that file (see @fig:figure2):
+5.  Copy the following code in that file (see @fig:script):
 
     ``` python
     msg = "Hello World!"
@@ -401,9 +359,9 @@ As a kind of initiation ritual of coding, say hello to the programming world in 
 
 7.  When you see the version number of spaCy, everything works fine. If you get a `ModuleNotFoundError`, let me know.
 
-Congrats, you wrote your first little program in Python. It may not be as impressive as you would have imagined, but you can go along and learn by practising more. The list of tutorials below provides a great starting point to learn the basics of Python by solving little exercises interactively:
+Congrats, you wrote your first little program in Python. It may not be as impressive as you would have imagined, but you can go along and learn by practicing more. The list of tutorials below provides a great starting point to learn the basics of Python by solving little exercises interactively:
 
 -   [Python Principles](https://pythonprinciples.com)
 -   [LearnPython](https://www.learnpython.org/en/Welcome)
 
-![Write your first Python script in VS Code](images/vs_code_hello_world.png){#fig:figure2}
+![Write your first Python script in VS Code](images/vs_code_hello_world.png){#fig:script}
