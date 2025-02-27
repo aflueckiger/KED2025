@@ -10,8 +10,8 @@ class BaseTextAnnotator:
     Interface for basic text exploration in embedded space.
     """
 
-    def __init__(self, dataf, labels=None, X=None, encoder=None):
-        self.dataf = dataf
+    def __init__(self, df, labels=None, X=None, encoder=None):
+        self.df = df
         self.labels = labels
         self.X = X
         self.encoder = encoder
@@ -24,7 +24,7 @@ class BaseTextAnnotator:
     def create_widget(self):
         # scatter plot
         self.scatter = jscatter.Scatter(
-            data=self.dataf,
+            data=self.df,
             x="x",
             y="y",
             legend=True,
@@ -76,16 +76,16 @@ class BaseTextAnnotator:
         self.scatter.widget.observe(lambda d: self.update(), ["selection"])
 
     def init_labeling(self):
-        if self.labels is not None and "label" not in self.dataf.columns:
-            self.dataf["label"] = "unlabeled"
+        if self.labels is not None and "label" not in self.df.columns:
+            self.df["label"] = "unlabeled"
 
     def color_by_label(self):
-        self.scatter.color(by=self.dataf["label"])
+        self.scatter.color(by=self.df["label"])
 
     def annotate(self, change):
         # filter as event gets triggered multiple times
         if change["new"] in self.labels:
-            self.dataf.loc[self.selected_idx, "label"] = change["new"]
+            self.df.loc[self.selected_idx, "label"] = change["new"]
             self.color_by_label()
             self.update()
 
@@ -94,9 +94,9 @@ class BaseTextAnnotator:
 
     def update(self):
         if len(self.selected_idx) > 10:
-            rows = self.dataf.iloc[self.selected_idx].sample(10)
+            rows = self.df.iloc[self.selected_idx].sample(10)
         else:
-            rows = self.dataf.iloc[self.selected_idx]
+            rows = self.df.iloc[self.selected_idx]
 
         texts = [
             f"""<p style="margin: 0px">
@@ -135,14 +135,14 @@ class BaseTextAnnotator:
 
     @property
     def selected_texts(self):
-        return list(self.dataf.iloc[self.selected_idx]["text"])
+        return list(self.df.iloc[self.selected_idx]["text"])
 
     @property
     def selected_dataframe(self):
-        return self.dataf.iloc[self.selected_idx]
+        return self.df.iloc[self.selected_idx]
 
     def _repr_html_(self):
         return display(self.elem)
 
     def save_data(self, path):
-        self.dataf.to_csv(path, index=False)
+        self.df.to_csv(path, index=False)

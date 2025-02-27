@@ -1,4 +1,8 @@
 # %%
+"""
+Scrape text data from the Vatican press release page.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta

@@ -10,10 +10,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from bertopic import BERTopic
 from hdbscan import HDBSCAN
 
-from text_annotator import BaseTextAnnotator
-
-
-
+from ked.materials.code.annotation_widget import BaseTextAnnotator
 
 
 # load German language model
@@ -75,8 +72,8 @@ df_sent = df_sent.sample(50, random_state=42).reset_index()
 
 # %%
 # Calculate embeddings
-#"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-embedding_model = SentenceTransformer("Alibaba-NLP/gte-multilingual-base", trust_remote_code=True, )
+model_name = "nomic-ai/nomic-embed-text-v2-moe"
+embedding_model = SentenceTransformer(model_name, trust_remote_code=True)
 X_embeddings = embedding_model.encode(df_sent["text"].values, show_progress_bar=True, normalize_embeddings=True)
 
 # %%
@@ -102,7 +99,7 @@ widget.save_data("labeled_data.csv")
 
 datamapplot.create_plot(
     X_tfm,
-    widget.dataf["label"],
+    widget.df["label"],
     title="Map of Embeddings",
     sub_title="Each sentence represents a point in the semantic space",
 )
@@ -114,44 +111,42 @@ datamapplot.create_plot(
 # create
 
 
-docs = df_sent['text']
+# docs = df_sent['text']
 
-umap_model = UMAP(n_neighbors=15, n_components=5, min_dist=0.0, metric='cosine')
-hdbscan_model = HDBSCAN(min_cluster_size=30, metric='euclidean', cluster_selection_method='eom', prediction_data=True)
+# umap_model = UMAP(n_neighbors=15, n_components=5, min_dist=0.0, metric='cosine')
+# hdbscan_model = HDBSCAN(min_cluster_size=30, metric='euclidean', cluster_selection_method='eom', prediction_data=True)
 
-topic_model = BERTopic(embedding_model=embedding_model, umap_model=umap_model, hdbscan_model=hdbscan_model)
+# topic_model = BERTopic(embedding_model=embedding_model, umap_model=umap_model, hdbscan_model=hdbscan_model)
 
-topics, probs = topic_model.fit_transform(docs)
+# topics, probs = topic_model.fit_transform(docs)
 
-topic_model.get_topic_info()
-topic_model.get_topics()
-topic_model.topic_sizes_
-topic_model.get_document_info(docs)
-
-
-# %%
+# topic_model.get_topic_info()
+# topic_model.get_topics()
+# topic_model.topic_sizes_
+# topic_model.get_document_info(docs)
 
 
-# refine topic descriptions
+# # %%
 
-class LemmaTokenizer:
-    def __call__(self, doc):
-        return [tok.lemma_ for tok in nlp(doc) if tok.is_alpha and not tok.is_stop]
 
-vectorizer_model = CountVectorizer(tokenizer=LemmaTokenizer(),  min_df=5)
-topic_model.update_topics(docs, vectorizer_model=vectorizer_model)
+# # refine topic descriptions
 
-# %%
+# class LemmaTokenizer:
+#     def __call__(self, doc):
+#         return [tok.lemma_ for tok in nlp(doc) if tok.is_alpha and not tok.is_stop]
 
-df_tm = topic_model.get_document_info(docs)
+# vectorizer_model = CountVectorizer(tokenizer=LemmaTokenizer(),  min_df=5)
+# topic_model.update_topics(docs, vectorizer_model=vectorizer_model)
 
-df_merged =  pd.concat([df_sent.reset_index(), df_tm.reset_index()], axis=1)
+# # %%
 
-datamapplot.create_plot(
-    X_tfm,
-    df_merged["Name"],
-    title="Map of Embeddings",
-    sub_title="Each sentence represents a point in the semantic space",
-)
+# df_tm = topic_model.get_document_info(docs)
 
-# %%
+# df_merged =  pd.concat([df_sent.reset_index(), df_tm.reset_index()], axis=1)
+
+# datamapplot.create_plot(
+#     X_tfm,
+#     df_merged["Name"],
+#     title="Map of Embeddings",
+#     sub_title="Each sentence represents a point in the semantic space",
+# )
