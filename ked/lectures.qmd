@@ -31,15 +31,13 @@ On the one hand, I present the goals and organization of the seminar. On the oth
 
 Computational text analysis comes with many challenges that are unique due to the fuzziness of natural language. In this session, we learn about its methodological foundation and conduct our first computational text analysis to understand how this translates into practice.
 
-```{=html}
-<!-- ::: slide-deck
+::: slide-deck
 <iframe class="slide-deck" src="lectures/html/ked2025_02.html">
 
 </iframe>
 :::
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_02.md){target="_blank"} -->
-```
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_02.md){target="_blank"} [{{< fa video size=xl >}}](<https://tube.switch.ch/videos/B86zl6iPQd>) <!-- -->
 
 ### Required Reading
 
