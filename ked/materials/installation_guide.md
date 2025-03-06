@@ -162,9 +162,9 @@ Unless you have another favourite coding editor, install and customize VS Code e
 
 2.  Open VS Code.
 
-3.  Set up `Copilot` for free as shown in (see @fig:copilot), which is an AI assistant that helps you programming. You have to create a GitHub account to use it. All the other configuration, you may skip by clicking *Next Section*.
+3.  Set up `Copilot` for free as shown in (see @fig-copilot), which is an AI assistant that helps you programming. You have to create a GitHub account to use it. All the other configuration, you may skip by clicking *Next Section*.
 
-4. To make programming in Python easier, you should install VS Code Python extension. Launch again the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the command, and press enter:
+4.  To make programming in Python easier, you should install VS Code Python extension. Launch again the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the command, and press enter:
 
     ```         
     ext install ms-python.python
@@ -185,7 +185,7 @@ To use the powerful Bash tools on your Windows computer, we install a Ubuntu Lin
     wsl --install -d Ubuntu
     ```
 
-    If something doesn't work, search for `Turn Windows feature on or off` in the menu, and ensure that `Windows Subsystem for Linux` is enabled (see @fig:figure_wsl). You have to restart the computer after enabling.
+    If something doesn't work, search for `Turn Windows feature on or off` in the menu, and ensure that `Windows Subsystem for Linux` is enabled (see @fig-conf-wsl). You have to restart the computer after enabling.
 
 2.  Reboot your computer to complete the installation of WSL and Ubuntu.
 
@@ -215,7 +215,7 @@ To use the powerful Bash tools on your Windows computer, we install a Ubuntu Lin
 
 Source: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install)
 
-![Ensure correct configuration](images/windows_wsl.png){#fig:figure_wsl width="40%"}
+![Ensure correct configuration](images/windows_wsl.png){#fig-conf-wsl width="40%"}
 
 ```{=html}
 <!--- Credentials on the Ubuntu system in the virtual machine: vboxuser: student password: changeme 
@@ -258,7 +258,7 @@ Unless you have another favorite coding editor, install and customize VS Code ed
 
 2.  Open VS Code.
 
-3.  Set up `Copilot` for free as shown in (see @fig:copilot), which is an AI assistant that helps you programming. You have to create a GitHub account to use it. All the other configuration, you may skip by clicking *Next Section*.
+3.  Set up `Copilot` for free as shown in (see @fig-copilot), which is an AI assistant that helps you programming. You have to create a GitHub account to use it. All the other configuration, you may skip by clicking *Next Section*.
 
 4.  We want to execute all the Python code within the Ubuntu subsystem. For this, we need to install a particular extension. Launch the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the following command, and press enter:
 
@@ -266,7 +266,7 @@ Unless you have another favorite coding editor, install and customize VS Code ed
     ext install ms-vscode-remote.vscode-remote-extensionpack
     ```
 
-5.  In the left lower corner, you should now see a green label with `WSL: Ubuntu` (see @fig:vs_wsl). If not, press `F1`, select *WSL: New WSL Window* to connect the subsystem.
+5.  In the left lower corner, you should now see a green label with `WSL: Ubuntu` (see @fig-wsl). If not, press `F1`, select *WSL: New WSL Window* to connect the subsystem.
 
 6.  To make programming in Python easier, you should install VS Code Python extension. Launch again the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the command, and press enter:
 
@@ -274,9 +274,12 @@ Unless you have another favorite coding editor, install and customize VS Code ed
     ext install ms-python.python
     ```
 
+
 Source: [Microsoft](https://code.visualstudio.com/docs/remote/wsl)
 
-![WSL Ubuntu is successfully connected](images/vs_code_wsl.png){#fig:vs_wsl} ![Install Copilot](images/vs_code_copilot.png){#fig:copilot}
+![WSL Ubuntu is successfully connected](images/vs_code_wsl.png){#fig-wsl}
+
+![Install Copilot](images/vs_code_copilot.png){#fig-copilot}
 
 ## Show file extensions
 
@@ -339,13 +342,13 @@ As a kind of initiation ritual of coding, say hello to the programming world in 
 
 1.  Open the VS Code editor.
 
-2.  Windows only: Ensure that you connected to `WSL: Ubuntu` (green or blue patch in the lower-left corner, see @fig:vs_wsl)
+2.  Windows only: Ensure that you connected to `WSL: Ubuntu` (green or blue patch in the lower-left corner, see @fig-wsl)
 
 3.  Open the folder `KED2025` via the menu.
 
 4.  Create a new file called `hello_world.py`.
 
-5.  Copy the following code in that file (see @fig:script):
+5.  Copy the following code in that file (see @fig-script):
 
     ``` python
     msg = "Hello World!"
@@ -364,4 +367,4 @@ Congrats, you wrote your first little program in Python. It may not be as impres
 -   [Python Principles](https://pythonprinciples.com)
 -   [LearnPython](https://www.learnpython.org/en/Welcome)
 
-![Write your first Python script in VS Code](images/vs_code_hello_world.png){#fig:script}
+![Write your first Python script in VS Code](images/vs_code_hello_world.png){#fig-script}
