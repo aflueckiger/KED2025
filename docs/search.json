@@ -32,7 +32,7 @@
     "href": "lectures.html#week-3-setting-up-your-development-environment",
     "title": "Lectures",
     "section": "Week 3: Setting up your Development Environment",
-    "text": "Week 3: Setting up your Development Environment\nThe title says it all. We are getting ready for the practical part of the course: Programming. Since installing Python and non-standard command line tools can be tricky, we will spend some time on it in class instead of doing it as homework. I will also introduce some jargon to help you navigate the brave new world of programming.\n\n[](lectures/html/ked2025_03.html){target=\"_blank\"} [](lectures/pdf/ked2025_03.pdf){target=\"_blank\"} [](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_03.md){target=\"_blank\"} \n\n\n\nOptional: pimp your workflow\n\nHealy, Kieran. 2019. “The Plain Person’s Guide to Plain Text Social Science.” online."
+    "text": "Week 3: Setting up your Development Environment\nThe title says it all. We are getting ready for the practical part of the course: Programming. Since installing Python and non-standard command line tools can be tricky, we will spend some time on it in class instead of doing it as homework. I will also introduce some jargon to help you navigate the brave new world of programming.\n  \n\n\n\n\nOptional: pimp your workflow\n\nHealy, Kieran. 2019. “The Plain Person’s Guide to Plain Text Social Science.” online."
   },
   {
     "objectID": "lectures.html#week-4-introduction-to-the-command-line",

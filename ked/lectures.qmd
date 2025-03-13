@@ -56,9 +56,13 @@ Computational text analysis comes with many challenges that are unique due to th
 
 The title says it all. We are getting ready for the practical part of the course: Programming. Since installing Python and non-standard command line tools can be tricky, we will spend some time on it in class instead of doing it as homework. I will also introduce some jargon to help you navigate the brave new world of programming.
 
-```{=html}
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_03.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_03.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_03.md){target="_blank"} 
+
+
+
+```{=html}
+
 <!--[{{< fa video size=xl >}}](https://tube.switch.ch/videos/vR3gwKp1ND)-->
 
 ```
