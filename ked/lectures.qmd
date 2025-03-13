@@ -17,11 +17,13 @@ Below you find a brief description of all the lectures. I make the slides availa
 
 On the one hand, I present the goals and organization of the seminar. On the other hand, we look at recent advancements in the area of artificial intelligence (AI) and digital humanities (DH) that offer an impression of the fascinating prospects of modern computing.
 
+<!--
 ::: slide-deck
 <iframe class="slide-deck" src="lectures/html/ked2025_01.html">
 
 </iframe>
 :::
+ -->
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_01.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_01.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_01.md){target="_blank"}
 
@@ -31,13 +33,16 @@ On the one hand, I present the goals and organization of the seminar. On the oth
 
 Computational text analysis comes with many challenges that are unique due to the fuzziness of natural language. In this session, we learn about its methodological foundation and conduct our first computational text analysis to understand how this translates into practice.
 
+<!--
 ::: slide-deck
 <iframe class="slide-deck" src="lectures/html/ked2025_02.html">
 
 </iframe>
 :::
+ -->
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_02.md){target="_blank"} [{{< fa video size=xl >}}](<https://tube.switch.ch/videos/B86zl6iPQd>) <!-- -->
+
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_02.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_02.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_02.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/B86zl6iPQd) <!-- -->
 
 ### Required Reading
 
@@ -49,13 +54,13 @@ Computational text analysis comes with many challenges that are unique due to th
 
 ## Week 3: Setting up your Development Environment
 
-The title says it all. We are getting ready for the practical part of the course: Programming. As installing Python and non-standard command-line tools may be tricky, we dedicate time in class rather than doing it as homework only. Additionally, I will also introduce some jargon that guide your way in the programmer's brave new word.
+The title says it all. We are getting ready for the practical part of the course: Programming. Since installing Python and non-standard command line tools can be tricky, we will spend some time on it in class instead of doing it as homework. I will also introduce some jargon to help you navigate the brave new world of programming.
 
 ```{=html}
-<!--
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_03.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_03.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_03.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/vR3gwKp1ND)
 
--->
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_03.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_03.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_03.md){target="_blank"} 
+<!--[{{< fa video size=xl >}}](https://tube.switch.ch/videos/vR3gwKp1ND)-->
+
 ```
 
 ### Optional: pimp your workflow
