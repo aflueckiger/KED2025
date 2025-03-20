@@ -77,7 +77,7 @@ def task_create_pdf_slide():
             "actions": [
                 # generate PDF from HTML
                 # REMOVE? use 4:3 format because of this bug: https://github.com/astefanutti/decktape/issues/151 --size='1050x700'
-                f"decktape reveal --load-pause 500 --pdf-author '{AUTHOR}' --pdf-title '{TITLE}' {infile} {outfile}",
+                f"decktape reveal --chrome-path /usr/bin/google-chrome-stable --load-pause 500 --pdf-author '{AUTHOR}' --pdf-title '{TITLE}' {infile} {outfile}",
                 # compress
                 f"gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile={outfile}.temp {outfile}",
                 f"mv {outfile}.temp {outfile}",
