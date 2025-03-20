@@ -62,9 +62,7 @@ The title says it all. We are getting ready for the practical part of the course
 
 The command-line is a powerful tool at your disposal. It is the working horse for many data wrangling tasks. In this session, you learn the basics of shells and how to perform many operations effectively by substituting clicks on the screen with commands. Admittedly, it is not overly exciting at this stage, yet a basic understanding on how to navigate in a file system is crucial for a more sophisticated automation later on.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_04.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_04.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_04.md){target="_blank"}
-
-<!-- [{{< fa video size=xl >}}](https://tube.switch.ch/videos/BJNRqSrNB0/) -->
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_04.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_04.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_04.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/C7r5BhAlql)
 
 ### Recommended resources
 
