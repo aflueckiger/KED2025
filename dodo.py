@@ -160,25 +160,20 @@ def task_create_assignment():
 
 
 def task_create_materials():
-    infiles = sorted(MATERIALS_DIR.glob("**/*.md"))
+
+    infiles = sorted(MATERIALS_DIR.glob("*.md"))
 
     for infile in infiles:
-        outfile = infile.with_suffix(".pdf")
+        outfile = Path(infile).with_suffix(".pdf")
+        # TODO: involves a dirty hack of changing working directory as Quarto can not handle relative paths
         yield {
             "name": infile,
             "file_dep": [infile],
             "actions": [
-                f"pandoc -f  markdown+rebase_relative_paths -o {outfile} {infile} \
-            -V urlcolor='[HTML]{{111bab}}' \
-            -V linkcolor='[HTML]{{111bab}}' \
-            -V filecolor='[HTML]{{111bab}}' \
-            -V geometry:margin=2.5cm \
-            --number-sections \
-            --metadata date='{today}' \
-            -F pandoc-crossref",
+                f"cd {MATERIALS_DIR} && quarto render {infile.name} -o {outfile.name}",
             ],
             "targets": [outfile],
-            # 'title': show_cmd
+            "title": show_cmd,
         }
 
 

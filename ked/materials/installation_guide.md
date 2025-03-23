@@ -2,16 +2,26 @@
 title: Setting up your Development Environment
 subtitle: Seminar KED2025
 author: Alex Flückiger
-date: 27.01.2025
-toc: True
-toc-depth: 2
+date: 23 March 2025
+date-format: long
+format:
+  pdf:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    documentclass: scrartcl
+    papersize: a4
+    geometry:
+      - right=20mm
+      - left=20mm
 ---
 
 \pagebreak
 
 # Introduction
 
-**IMPORTANT NOTE: When you use a Mac and have Python 3/Anaconda installed already, let me know first before proceeding. Installing naively multiple Python versions may cause problems.**
+**IMPORTANT NOTE: Read and follow each step of this guide carefully. When you use a Mac and have Python 3/Anaconda installed already, let me know first before proceeding. Installing naively multiple Python versions may cause problems.**
 
 This guide aims to ease setting up your development environment for Windows 11 and macOS. Depending on your operating system, you have to install additional components to program in Python and perform common data wrangling tasks in the command-line. The instructions cover the installation of the following components:
 
@@ -69,7 +79,8 @@ Homebrew is a powerful package manager for macOS systems. With Homebrew, you can
 1.  To install Homebrew, type the following command into your Terminal window:
 
     ``` bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL 
+    https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
     When there is an issue executing this command (i.e., unprintable characters), copy the identical looking installation command from the [offical website](https://brew.sh/) into your Terminal.
@@ -262,7 +273,7 @@ Unless you have another favorite coding editor, install and customize VS Code ed
 
 4.  We want to execute all the Python code within the Ubuntu subsystem. For this, we need to install a particular extension. Launch the *VS Code Quick Open* by pressing `CTRL`+`P`, paste the following command, and press enter:
 
-    ``` bash
+    ```
     ext install ms-vscode-remote.vscode-remote-extensionpack
     ```
 
@@ -277,9 +288,9 @@ Unless you have another favorite coding editor, install and customize VS Code ed
 
 Source: [Microsoft](https://code.visualstudio.com/docs/remote/wsl)
 
-![WSL Ubuntu is successfully connected](images/vs_code_wsl.png){#fig-wsl}
+![WSL Ubuntu is successfully connected](images/vs_code_wsl.png){#fig-wsl width="40%"}
 
-![Install Copilot](images/vs_code_copilot.png){#fig-copilot}
+![Install Copilot](images/vs_code_copilot.png){#fig-copilot width="40%"}
 
 ## Show file extensions
 
@@ -367,4 +378,4 @@ Congrats, you wrote your first little program in Python. It may not be as impres
 -   [Python Principles](https://pythonprinciples.com)
 -   [LearnPython](https://www.learnpython.org/en/Welcome)
 
-![Write your first Python script in VS Code](images/vs_code_hello_world.png){#fig-script}
+![Write your first Python script in VS Code](images/vs_code_hello_world.png){#fig-script width="80%"}

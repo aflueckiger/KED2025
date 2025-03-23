@@ -2,10 +2,19 @@
 title: Cheatsheet Shell Commands
 subtitle: Seminar KED2025
 author: Alex Flückiger
-date: 27.01.2023
-toc: True
-toc-depth: 1
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+date: 23 March 2025
+date-format: long
+format:
+  pdf:
+    toc: true
+    toc-depth: 1
+    number-sections: true
+    colorlinks: true
+    documentclass: scrartcl
+    papersize: a4
+    geometry:
+      - right=20mm
+      - left=20mm
 ---
 
 # Basic Shell Commands
