@@ -74,14 +74,11 @@ The command-line is a powerful tool at your disposal. It is the working horse fo
 
 Counting words is the most basic method to look at texts from a computational perspective. The command-line provides tools to sift through a massive text collection with ease. Combined with pattern-based search, you get quick results regardless whether you want to get a quantitative overview across documents, count particular words or see their usage in context. Does it sound like the Swiss knife in your research toolkit that marks the starting point of almost any textual analysis? It certainly is.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_05.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_05.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_05.md){target="_blank"}
-
-```{=html}
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_05.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_05.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_05.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/qdoPjzXlPr){target="_blank"}
 <!-- 
-{{< fa video size=xl >}}
+
 
 -->
-```
 
 ### Optional reading
 
