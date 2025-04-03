@@ -46,14 +46,14 @@
     "href": "lectures.html#week-5-basic-nlp-with-the-command-line",
     "title": "Lectures",
     "section": "Week 5: Basic NLP with the Command-line",
-    "text": "Week 5: Basic NLP with the Command-line\nCounting words is the most basic method to look at texts from a computational perspective. The command-line provides tools to sift through a massive text collection with ease. Combined with pattern-based search, you get quick results regardless whether you want to get a quantitative overview across documents, count particular words or see their usage in context. Does it sound like the Swiss knife in your research toolkit that marks the starting point of almost any textual analysis? It certainly is.\n  \n\n\nOptional reading\n\nBen Schmidt. 2019. Regular Expressions\nAmit Chaudhary. 2021. A Visual Guide to Regular Expression\n\n\n\nOnline editor for regular expressions\n\nregex101 is a visual editor to check your regular expressions.\nregexone provides an interactive regex tutorial"
+    "text": "Week 5: Basic NLP with the Command-line\nCounting words is the most basic method to look at texts from a computational perspective. The command-line provides tools to sift through a massive text collection with ease. Combined with pattern-based search, you get quick results regardless whether you want to get a quantitative overview across documents, count particular words or see their usage in context. Does it sound like the Swiss knife in your research toolkit that marks the starting point of almost any textual analysis? It certainly is.\n    \n\nOptional reading\n\nBen Schmidt. 2019. Regular Expressions\nAmit Chaudhary. 2021. A Visual Guide to Regular Expression\n\n\n\nOnline editor for regular expressions\n\nregex101 is a visual editor to check your regular expressions.\nregexone provides an interactive regex tutorial"
   },
   {
     "objectID": "lectures.html#week-6-introduction-to-python-in-vs-code",
     "href": "lectures.html#week-6-introduction-to-python-in-vs-code",
     "title": "Lectures",
     "section": "Week 6: Introduction to Python in VS Code",
-    "text": "Week 6: Introduction to Python in VS Code\nAs the folks say, Python is among the coolest programming languages, relatively easy to learn, and provides excellent NLP packages so that you do not have to implement everything yourself. In this session, we begin with an introduction to the basic syntax of Python. Starting with basics may be dry stuff; however, it will allow you to use third-party libraries and get a handle on more sophisticated NLP analyses later on."
+    "text": "Week 6: Introduction to Python in VS Code\nAs the folks say, Python is among the coolest programming languages, relatively easy to learn, and provides excellent NLP packages so that you do not have to implement everything yourself. In this session, we begin with an introduction to the basic syntax of Python. Starting with basics might be dry stuff; however, it will allow you to use third-party libraries and get a handle on more sophisticated NLP analyses later on."
   },
   {
     "objectID": "lectures.html#week-7-working-with-data",
