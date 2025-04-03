@@ -98,7 +98,7 @@ As the folks say, Python is among the coolest programming languages, relatively 
 
 ### Optional resources for learning Python
 -   [Google's Python Class](https://developers.google.com/edu/python/introduction)
--   [Introduction of Python for Social Scientists](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html) [@Walsh2021]
+-   [Introduction of Python for Social Scientists](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html)
 -   [Official Python introduction](https://docs.python.org/3/tutorial/introduction.html)
 
 ### Optional resources for learning Python interactively
