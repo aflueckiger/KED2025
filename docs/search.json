@@ -53,14 +53,14 @@
     "href": "lectures.html#week-6-introduction-to-python-in-vs-code",
     "title": "Lectures",
     "section": "Week 6: Introduction to Python in VS Code",
-    "text": "Week 6: Introduction to Python in VS Code\nAs the folks say, Python is among the coolest programming languages, relatively easy to learn, and provides excellent NLP packages so that you do not have to implement everything yourself. In this session, we begin with an introduction to the basic syntax of Python. Starting with basics might be dry stuff; however, it will allow you to use third-party libraries and get a handle on more sophisticated NLP analyses later on."
+    "text": "Week 6: Introduction to Python in VS Code\nAs the folks say, Python is among the coolest programming languages, relatively easy to learn, and provides excellent NLP packages so that you do not have to implement everything yourself. In this session, we begin with an introduction to the basic syntax of Python. Starting with basics might be dry stuff; however, it will allow you to use third-party libraries and get a handle on more sophisticated NLP analyses later on.\n   \n\nOptional resources for learning Python\n\nGoogle’s Python Class\nIntroduction of Python for Social Scientists\nOfficial Python introduction\n\n\n\nOptional resources for learning Python interactively\n\nIntroduction to Python by IBM Cognitive Class\nLearnPython"
   },
   {
     "objectID": "lectures.html#week-7-working-with-data",
     "href": "lectures.html#week-7-working-with-data",
     "title": "Lectures",
     "section": "Week 7: Working with Data",
-    "text": "Week 7: Working with Data\nUp to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text. In particular, we use optical character recognition (OCR)."
+    "text": "Week 7: Working with Data\nUp to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text."
   },
   {
     "objectID": "lectures.html#week-8-data-analysis-of-swiss-media",
