@@ -95,13 +95,14 @@ As the folks say, Python is among the coolest programming languages, relatively 
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_06.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_06.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_06.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/xX3M3GbnRk){target="_blank"}
 
-
 ### Optional resources for learning Python
+
 -   [Google's Python Class](https://developers.google.com/edu/python/introduction)
 -   [Introduction of Python for Social Scientists](https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/04-Variables.html)
 -   [Official Python introduction](https://docs.python.org/3/tutorial/introduction.html)
 
 ### Optional resources for learning Python interactively
+
 -   [Introduction to Python by IBM Cognitive Class](https://github.com/computationalcore/introduction-to-python)
 -   [LearnPython](https://www.learnpython.org/en/Welcome)
 
@@ -109,12 +110,12 @@ As the folks say, Python is among the coolest programming languages, relatively 
 
 Up to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_07.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_07.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_07.md){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_07.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_07.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_07.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/JXIivJQ0B3){target="_blank"}
 
 ```{=html}
 <!--
 
- [{{< fa video size=xl >}}](https://tube.switch.ch/videos/VJXVagFfQq){target="_blank"}
+ 
 
 You can open the static code or run the code directly in your browser without any installation using Binder:
 
