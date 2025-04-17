@@ -67,7 +67,7 @@
     "href": "lectures.html#week-8-data-analysis-of-swiss-media",
     "title": "Lectures",
     "section": "Week 8: Data Analysis of Swiss Media",
-    "text": "Week 8: Data Analysis of Swiss Media\nAnalyzing the media discourse from the past and the present has always been one of the most exciting approaches for social science. Only recently, however, Swissdox@LiRI has introduced a simple-to-use API to assemble and download comprehensive datasets of Swiss news media. In this session, we learn about the process of data curation and data analysis using the Pandas package."
+    "text": "Week 8: Data Analysis of Swiss Media\nAnalyzing the media discourse from the past and the present has always been one of the most exciting approaches for social science. Only recently, however, Swissdox@LiRI has introduced a simple-to-use platform to assemble and download comprehensive datasets of Swiss media. In this session, we learn about the process of data curation and data analysis using the Pandas package."
   },
   {
     "objectID": "lectures.html#week-9-ethics-and-the-evolution-of-nlp",
