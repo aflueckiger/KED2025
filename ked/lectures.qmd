@@ -112,7 +112,8 @@ Up to this point, you have acquired the skills to cut a document into pieces and
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_07.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_07.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_07.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/JXIivJQ0B3){target="_blank"}
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_07.ipynb) Open the static code
+Open the static code:
+[{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_07.ipynb)
 
 ```{=html}
 <!--
@@ -134,7 +135,8 @@ Analyzing the media discourse from the past and the present has always been one 
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_08.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_08.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_08.md){target="_blank"}  [{{< fa video size=xl >}}](https://tube.switch.ch/videos/M8dsdlYxxK){target="_blank"}
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_08.ipynb) Open the static code
+Open the static code:
+[{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_08.ipynb) 
 
 ```{=html}
 <!--
