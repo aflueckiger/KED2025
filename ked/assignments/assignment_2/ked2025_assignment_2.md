@@ -60,12 +60,14 @@ Count all the words in your book using Python.
     9.  Count all the words.
     10. Write the counted vocabular into a new file. One word and its frequency per line, separated by a tabulator.
 3.  Open and inspect the cleaned file in VS Code. Does it look correct after the clean up? Check the header, footer, potential missing parts, lowercasing etc. If it doesn't look right, correct your code and rerun the steps above.
-4.  Open the written vocabulary with its frequencies in a spreadsheet program (e.g., Excel or Numbers).
+4.  Open the written vocabulary with its frequencies in a spreadsheet program (e.g., Excel or Numbers). When you cannot find the saved file, you can open its location via VS Code by right-clicking and selecting `Reveal in Explorer` (Windows) or `Reveal in Finder` (Windows). See screenshot below.
 5.  Go back to the Jupyter notebook and create a separate markdown cell or create a comment starting with `#`. Answer the following questions briefly as bullet points:
     1.  What are the most frequent words?
     2.  Who of the main characters is mentioned the most?
     3.  Do the frequent words correspond with the main themes of the book?
     4.  Did you find something remarkable?
+
+![Show location of a file from within VS Code (Connecting to WSL is only necessary on Windows)](reveal_file.png)
 
 ## Code Template
 
