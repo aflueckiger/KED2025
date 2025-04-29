@@ -154,6 +154,7 @@ You can open the static code or run the code directly in your browser without an
 ```
 
 ## Week 9: Ethics and the Evolution of NLP
+This lecture will be held remotely via Zoom due to my limited mobility following a fracture.
 
 Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful than ever and, thus, pervasive in many aspects of life. Unfortunately, it also exhibits severe and poorly understood biases that may cause harm. With the recent *turn to data-driven deep learning*, NLP overcame many theoretical limitations, but this comes at a cost. It is our duty to better understand the workings and impact of this technology.
 
