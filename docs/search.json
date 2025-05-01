@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "We have 12 seminar sessions together.\nThe plan below is provisional. I am happy to adapt the topics, as well as the schedule, to the needs and interests of the students. Likely, we will change some topics and orderings as we go.\n\n\n\nDate\nTopic\n\n\n\n\n20 February 2025\nIntroduction + Where is the digital revolution?\n\n\n27 February 2025\nno lecture (Fasnacht)\n\n\n06 March 2025\nText as Data\n\n\n13 March 2025\nSetting up your Development Environment\n\n\n20 March 2025\nIntroduction to the Command-line\n\n\n27 March 2025\nBasic NLP with Command-line\n\n\n03 April 2025\nIntroduction to Python in VS Code\n\n\n10 April 2025\nWorking with (your own) Data\n\n\n17 April 2025\nData Analysis of Swiss Media\n\n\n24 April 2025\nno lecture (Osterpause)\n\n\n01 May 2025\nEthics and the Evolution of NLP\n\n\n08 May 2025\nNLP with Python\n\n\n15 May 2025\nNLP with Python II + Working Session\n\n\n22 May 2025\nMini-Project Presentations + Discussion\n\n\n29 May 2025\nno lecture (Christi Himmelfahrt)\n\n\n\n\n\n\n Back to top"
+    "text": "We have 12 seminar sessions together.\nThe plan below is provisional. I am happy to adapt the topics, as well as the schedule, to the needs and interests of the students. Likely, we will change some topics and orderings as we go.\n\n\n\nDate\nTopic\n\n\n\n\n20 February 2025\nIntroduction + Where is the digital revolution?\n\n\n27 February 2025\nno lecture (Fasnacht)\n\n\n06 March 2025\nText as Data\n\n\n13 March 2025\nSetting up your Development Environment\n\n\n20 March 2025\nIntroduction to the Command-line\n\n\n27 March 2025\nBasic NLP with Command-line\n\n\n03 April 2025\nIntroduction to Python in VS Code\n\n\n10 April 2025\nWorking with (your own) Data\n\n\n17 April 2025\nData Analysis of Swiss Media\n\n\n24 April 2025\nno lecture (Osterpause)\n\n\n01 May 2025\nEthics and the Evolution of NLP (via Zoom, see OLAT)\n\n\n08 May 2025\nNLP with Python\n\n\n15 May 2025\nNLP with Python II + Working Session\n\n\n22 May 2025\nMini-Project Presentations + Discussion\n\n\n29 May 2025\nno lecture (Christi Himmelfahrt)\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "lectures.html",
@@ -60,21 +60,21 @@
     "href": "lectures.html#week-7-working-with-data",
     "title": "Lectures",
     "section": "Week 7: Working with Data",
-    "text": "Week 7: Working with Data\nUp to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text."
+    "text": "Week 7: Working with Data\nUp to this point, you have acquired the skills to cut a document into pieces and then count any text elements. Without interesting data, these tools are neat but of little use. Thus, we turn to relevant data sources for computational text analysis. When dealing with plain text, your tools will cut through the data like butter. For other formats, such as PDF, we learn some tricks to convert them into plain text.\n   \nOpen the static code:"
   },
   {
     "objectID": "lectures.html#week-8-data-analysis-of-swiss-media",
     "href": "lectures.html#week-8-data-analysis-of-swiss-media",
     "title": "Lectures",
     "section": "Week 8: Data Analysis of Swiss Media",
-    "text": "Week 8: Data Analysis of Swiss Media\nAnalyzing the media discourse from the past and the present has always been one of the most exciting approaches for social science. Only recently, however, Swissdox@LiRI has introduced a simple-to-use platform to assemble and download comprehensive datasets of Swiss media. In this session, we learn about the process of data curation and data analysis using the Pandas package."
+    "text": "Week 8: Data Analysis of Swiss Media\nAnalyzing the media discourse from the past and the present has always been one of the most exciting approaches for social science. Only recently, however, Swissdox@LiRI has introduced a simple-to-use platform to assemble and download comprehensive datasets of Swiss media. In this session, we learn about the process of data curation and data analysis using the Pandas package.\n   \nOpen the static code:"
   },
   {
     "objectID": "lectures.html#week-9-ethics-and-the-evolution-of-nlp",
     "href": "lectures.html#week-9-ethics-and-the-evolution-of-nlp",
     "title": "Lectures",
     "section": "Week 9: Ethics and the Evolution of NLP",
-    "text": "Week 9: Ethics and the Evolution of NLP\nEthics is not just an abstract topic of Philosophy. Modern NLP is more powerful than ever and, thus, pervasive in many aspects of life. Unfortunately, it also exhibits severe and poorly understood biases that may cause harm. With the recent turn to data-driven deep learning, NLP overcame many theoretical limitations, but this comes at a cost. It is our duty to better understand the workings and impact of this technology."
+    "text": "Week 9: Ethics and the Evolution of NLP\nThis lecture will be held remotely via Zoom due to my limited mobility following a fracture. See OLAT.\nEthics is not just an abstract topic of Philosophy. Modern NLP is more powerful than ever and, thus, pervasive in many aspects of life. Unfortunately, it also exhibits severe and poorly understood biases that may cause harm. With the recent turn to data-driven deep learning, NLP overcame many theoretical limitations, but this comes at a cost. It is our duty to better understand the workings and impact of this technology."
   },
   {
     "objectID": "lectures.html#week-10-nlp-with-python",

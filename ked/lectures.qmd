@@ -112,8 +112,7 @@ Up to this point, you have acquired the skills to cut a document into pieces and
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_07.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_07.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_07.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/JXIivJQ0B3){target="_blank"}
 
-Open the static code:
-[{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_07.ipynb)
+Open the static code: [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_07.ipynb)
 
 ```{=html}
 <!--
@@ -133,10 +132,9 @@ You can open the static code or run the code directly in your browser without an
 
 Analyzing the media discourse from the past and the present has always been one of the most exciting approaches for social science. Only recently, however, [Swissdox\@LiRI](https://swissdox.linguistik.uzh.ch/#) has introduced a simple-to-use platform to assemble and download comprehensive datasets of Swiss media. In this session, we learn about the process of data curation and data analysis using the Pandas package.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_08.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_08.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_08.md){target="_blank"}  [{{< fa video size=xl >}}](https://tube.switch.ch/videos/M8dsdlYxxK){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_08.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_08.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_08.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/M8dsdlYxxK){target="_blank"}
 
-Open the static code:
-[{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_08.ipynb) 
+Open the static code: [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_08.ipynb)
 
 ```{=html}
 <!--
@@ -154,14 +152,16 @@ You can open the static code or run the code directly in your browser without an
 ```
 
 ## Week 9: Ethics and the Evolution of NLP
-This lecture will be held remotely via Zoom due to my limited mobility following a fracture.
+
+This lecture will be held remotely via Zoom due to my limited mobility following a fracture. See OLAT.
 
 Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful than ever and, thus, pervasive in many aspects of life. Unfortunately, it also exhibits severe and poorly understood biases that may cause harm. With the recent *turn to data-driven deep learning*, NLP overcame many theoretical limitations, but this comes at a cost. It is our duty to better understand the workings and impact of this technology.
 
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_09.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_09.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_09.md){target="_blank"}
 
 ```{=html}
 <!--
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_09.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_09.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_09.md){target="_blank"}
+
 
  [{{< fa video size=xl >}}](https://tube.switch.ch/videos/rfQsX14LKw){target="_blank"}
 
