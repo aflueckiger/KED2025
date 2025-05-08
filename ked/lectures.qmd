@@ -74,10 +74,8 @@ The command-line is a powerful tool at your disposal. It is the working horse fo
 
 Counting words is the most basic method to look at texts from a computational perspective. The command-line provides tools to sift through a massive text collection with ease. Combined with pattern-based search, you get quick results regardless whether you want to get a quantitative overview across documents, count particular words or see their usage in context. Does it sound like the Swiss knife in your research toolkit that marks the starting point of almost any textual analysis? It certainly is.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_05.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_05.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_05.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/qdoPjzXlPr){target="_blank"} <!-- 
-
-
--->
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_05.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_05.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_05.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/qdoPjzXlPr){target="_blank"} 
+<!-- -->
 
 ### Optional reading
 
@@ -136,20 +134,8 @@ Analyzing the media discourse from the past and the present has always been one 
 
 Open the static code: [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_08.ipynb)
 
-```{=html}
-<!--
+<!-- -->
 
-
-
-You can open the static code or run the code directly in your browser without any installation using Binder.
-
-
-
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2025%2Fmaterials%2Fcode%2Fked2025_08.ipynb) Run in your browser via Binder
-
--   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg){alt="Open In Colab"}](#0) Run in your browser via Google Colab (requires a Google Account)
--->
-```
 
 ## Week 9: Ethics and the Evolution of NLP
 
@@ -159,34 +145,26 @@ Ethics is not just an abstract topic of Philosophy. Modern NLP is more powerful 
 
 [{{< fa desktop size=xl >}}](lectures/html/ked2025_09.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_09.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_09.md){target="_blank"}  [{{< fa video size=xl >}}](https://tube.switch.ch/videos/D7jHqxdAgc){target="_blank"}
 
-```{=html}
-<!--
+<!-- -->
 
-
-
-
-
--->
-```
 
 ## Week 10: NLP with Python
+This lecture will be held remotely via Zoom due to my limited mobility following a fracture. See OLAT.
 
 Python is the language of choice when it comes to advanced NLP. Have you ever wondered how the frequency of terms has evolved over the years? Or how the language differs between two groups whereby the groups may be formed by any metadata (people, organization, gender etc.)? In such an exploratory endeavor, using an interactive and visual mode is very effective and complements statistics. In short, we finally arrived at the serious stuff in our journey. To make sure you don't get lost in the forest of yet unknown concepts, you will also learn some more jargon of NLP.
 
+
+
 ```{=html}
-<!-- 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_10.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_10.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_10.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/mbSGzrfNEL)
+<!--  [{{< fa desktop size=xl >}}](lectures/html/ked2025_10.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_10.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_10.md){target="_blank"} 
 
-You can open the static code or run the code directly in your browser without any installation using Binder.
+Open the static code: [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_10.ipynb)
 
--   [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked2025/materials/code/ked2025_10.ipynb) Open the static code
-
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2025%2Fmaterials%2Fcode%2Fked2025_10.ipynb) Run in your browser via Binder
-
--->
+[{{< fa video size=xl >}}](https://tube.switch.ch/videos/mbSGzrfNEL) -->
 ```
 
 ## Week 11: NLP with Python II + Working Session
+This lecture will be held remotely via Zoom due to my limited mobility following a fracture. See OLAT.
 
 We continue our deep dive into NLP with Python in today's session. It is the last piece of our puzzle. During this course, you have learned about the entire workflow, from assembling datasets of documents to analyzing their content and visualizing your findings. As soon as you have a structured text collection along with basic metadata (e.g., publication date), you can take numerous perspectives to look at your data.
 
@@ -215,6 +193,7 @@ You can search for the terms of your interest. Moreover, you may click on the po
 ```
 
 ## Week 12: Mini-Project Presentations + Discussion
+This lecture will be held remotely via Zoom due to my limited mobility following a fracture. See OLAT.
 
 In this session, it is your turn. Going beyond mere toy examples, you present what you have worked on and show off your first harvest of computational text analysis.
 
