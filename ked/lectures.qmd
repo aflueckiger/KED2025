@@ -153,12 +153,12 @@ This lecture will be held remotely via Zoom due to my limited mobility following
 
 Python is the language of choice when it comes to advanced NLP. Have you ever wondered how the frequency of terms has evolved over the years? Or how the language differs between two groups whereby the groups may be formed by any metadata (people, organization, gender etc.)? In such an exploratory endeavor, using an interactive and visual mode is very effective and complements statistics. In short, we finally arrived at the serious stuff in our journey. To make sure you don't get lost in the forest of yet unknown concepts, you will also learn some more jargon of NLP.
 
-
-
-```{=html}
-<!--  [{{< fa desktop size=xl >}}](lectures/html/ked2025_10.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_10.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_10.md){target="_blank"} 
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_10.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_10.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_10.md){target="_blank"} 
 
 Open the static code: [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_10.ipynb)
+
+```{=html}
+<!--  
 
 [{{< fa video size=xl >}}](https://tube.switch.ch/videos/mbSGzrfNEL) -->
 ```
