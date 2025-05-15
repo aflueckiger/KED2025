@@ -164,7 +164,7 @@ This lecture will be held remotely via Zoom due to my limited mobility following
 
 We continue our deep dive into NLP with Python in today's session. It is the last piece of our puzzle. During this course, you have learned about the entire workflow, from assembling datasets of documents to analyzing their content and visualizing your findings. As soon as you have a structured text collection along with basic metadata (e.g., publication date), you can take numerous perspectives to look at your data.
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_11.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_11.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_11.md){target="_blank"}
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_11.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_11.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_11.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/ebLTBhva5E)
 
 Open the static code: [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_10.ipynb)
 
@@ -181,7 +181,7 @@ You can search for the terms of your interest. Moreover, you may click on the po
 
 ```{=html}
 <!-- 
- [{{< fa video size=xl >}}](https://tube.switch.ch/videos/dhwlYVZGuZ)
+
 
 -->
 ```
