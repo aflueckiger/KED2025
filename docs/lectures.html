@@ -165,7 +165,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#week-8-data-analysis-of-swiss-media" id="toc-week-8-data-analysis-of-swiss-media" class="nav-link" data-scroll-target="#week-8-data-analysis-of-swiss-media">Week 8: Data Analysis of Swiss Media</a></li>
   <li><a href="#week-9-ethics-and-the-evolution-of-nlp" id="toc-week-9-ethics-and-the-evolution-of-nlp" class="nav-link" data-scroll-target="#week-9-ethics-and-the-evolution-of-nlp">Week 9: Ethics and the Evolution of NLP</a></li>
   <li><a href="#week-10-nlp-with-python" id="toc-week-10-nlp-with-python" class="nav-link" data-scroll-target="#week-10-nlp-with-python">Week 10: NLP with Python</a></li>
-  <li><a href="#week-11-nlp-with-python-ii-working-session" id="toc-week-11-nlp-with-python-ii-working-session" class="nav-link" data-scroll-target="#week-11-nlp-with-python-ii-working-session">Week 11: NLP with Python II + Working Session</a></li>
+  <li><a href="#week-11-nlp-with-python-ii-working-session" id="toc-week-11-nlp-with-python-ii-working-session" class="nav-link" data-scroll-target="#week-11-nlp-with-python-ii-working-session">Week 11: NLP with Python II + Working Session</a>
+  <ul class="collapse">
+  <li><a href="#explore-interactively-1-august-speeches-by-swiss-federal-councilors" id="toc-explore-interactively-1-august-speeches-by-swiss-federal-councilors" class="nav-link" data-scroll-target="#explore-interactively-1-august-speeches-by-swiss-federal-councilors">Explore interactively: 1 August Speeches by Swiss Federal Councilors</a></li>
+  </ul></li>
   <li><a href="#week-12-mini-project-presentations-discussion" id="toc-week-12-mini-project-presentations-discussion" class="nav-link" data-scroll-target="#week-12-mini-project-presentations-discussion">Week 12: Mini-Project Presentations + Discussion</a></li>
   </ul>
 </nav>
@@ -337,27 +340,19 @@ You can open the static code or run the code directly in your browser without an
 <h2 class="anchored" data-anchor-id="week-11-nlp-with-python-ii-working-session">Week 11: NLP with Python II + Working Session</h2>
 <p>This lecture will be held remotely via Zoom due to my limited mobility following a fracture. See OLAT.</p>
 <p>We continue our deep dive into NLP with Python in today’s session. It is the last piece of our puzzle. During this course, you have learned about the entire workflow, from assembling datasets of documents to analyzing their content and visualizing your findings. As soon as you have a structured text collection along with basic metadata (e.g., publication date), you can take numerous perspectives to look at your data.</p>
+<p><a href="lectures/html/ked2025_11.html" target="_blank"><i class="fa-solid fa-desktop fa-xl" aria-label="desktop"></i></a> <a href="lectures/pdf/ked2025_11.pdf" target="_blank"><i class="fa-solid fa-file-pdf fa-xl" aria-label="file-pdf"></i></a> <a href="https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_11.md" target="_blank"><i class="fa-brands fa-github fa-xl" aria-label="github"></i></a></p>
+<p>Open the static code: <a href="https://github.com/aflueckiger/KED2025/blob/main/ked/materials/code/ked2025_10.ipynb"><i class="fa-brands fa-github fa-xl" aria-label="github"></i></a></p>
+<section id="explore-interactively-1-august-speeches-by-swiss-federal-councilors" class="level3">
+<h3 class="anchored" data-anchor-id="explore-interactively-1-august-speeches-by-swiss-federal-councilors">Explore interactively: 1 August Speeches by Swiss Federal Councilors</h3>
+<p>As a matter of tradition, Swiss Federal Councilors give an official speech on the Swiss National Day. Simon Schmid (ex-Republik), in collaboration with Prof.&nbsp;Andreas Kley (Faculty of Law, UZH), collected many of these speeches and kindly shared the resulting dataset with me. The collection comprises 166 speeches, the newer ones are also publicly available <a href="https://www.admin.ch/gov/de/start/dokumentation/reden/ansprachen-zum-nationalfeiertag.html" target="_blank">here</a>. The original analysis of the dataset has been <a href="https://www.republik.ch/2019/08/01/anleitung-fuer-die-perfekte-ansprache-zum-1-august">published in the Republik</a>.</p>
+<p>The interactive visualization linked below shows how the language differs between speakers of <em>Social Democratic Party of Switzerland</em> (SP) and speakers of other parties. The top right corner shows terms that all parties have frequently used. In contrast, the top left and the lower right corner reveal words that have been used primarily by the members of the SP and correspondingly by the centre-right parties.</p>
+<p>You can search for the terms of your interest. Moreover, you may click on the points in the plot to show the context of the corresponding words within speeches. These functions allow for a efficient investigation of the corpus along the dimensions of Swiss parties.</p>
+<p><a href="materials/analysis/viz_party_differences.html" target="_blank"><i class="fa-solid fa-desktop fa-xl" aria-label="desktop"></i></a> Click to explore in your browser<br><em>(it may take a few seconds to load)</em></p>
 <!-- 
-[](lectures/html/ked2025_11.html){target="_blank"} [](lectures/pdf/ked2025_11.pdf){target="_blank"} [](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_11.md){target="_blank"} [](https://tube.switch.ch/videos/dhwlYVZGuZ)
-
-You can open the static code or run the code directly in your browser without any installation using Binder.
-
--   [](https://github.com/aflueckiger/KED2025/blob/main/ked2025/materials/code/ked2025_10.ipynb) Open the static code
-
--   [![Binder](https://mybinder.org/badge_logo.svg){alt="Binder"}](https://mybinder.org/v2/gh/aflueckiger/KED2025/HEAD?labpath=ked2025%2Fmaterials%2Fcode%2Fked2025_10.ipynb) Run in your browser via Binder
-
-### Explore interactively: 1 August Speeches by Swiss Federal Councilors
-
-As a matter of tradition, Swiss Federal Councilors give an official speech on the Swiss National Day. Simon Schmid (Republik), in collaboration with Prof. Andreas Kley (Faculty of Law, UZH), collected many of these speeches and kindly shared the resulting dataset with me. The collection comprises 166 speeches, the newer ones are also publicly available [here](https://www.admin.ch/gov/de/start/dokumentation/reden/ansprachen-zum-nationalfeiertag.html){target="_blank"}. The original analysis of the dataset has been [published in the Republik](https://www.republik.ch/2019/08/01/anleitung-fuer-die-perfekte-ansprache-zum-1-august).
-
-The interactive visualization linked below shows how the language differs between speakers of *Social Democratic Party of Switzerland* (SP) and speakers of other parties. The top right corner shows terms that all parties have frequently used. In contrast, the top left and the lower right corner reveal words that have been used primarily by the members of the SP and correspondingly by the centre-right parties.
-
-You can search for the terms of your interest. Moreover, you may click on the points in the plot to show the context of the corresponding words within speeches. These functions allow for a efficient investigation of the corpus along the dimensions of Swiss parties.
-
-[](materials/analysis/viz_party_differences.html){target="_blank"} Click to explore in your browser<br>*(it may take a few seconds to load)*
-
+ [](https://tube.switch.ch/videos/dhwlYVZGuZ)
 
 -->
+</section>
 </section>
 <section id="week-12-mini-project-presentations-discussion" class="level2">
 <h2 class="anchored" data-anchor-id="week-12-mini-project-presentations-discussion">Week 12: Mini-Project Presentations + Discussion</h2>
