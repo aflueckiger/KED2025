@@ -193,10 +193,12 @@ In this session, it is your turn. Going beyond mere toy examples, you present wh
 
 The seminar is coming to an end, yet it doesn't have to be a dead-end. You may have gotten more proficient in cursing your computer but you are also ready to fight your way through the jungle of technology. Keep going, cheers!
 
+[{{< fa desktop size=xl >}}](lectures/html/ked2025_12.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_12.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_12.md){target="_blank"} [{{< fa video size=xl >}}](https://tube.switch.ch/videos/BGgwYlCNFs)
+
 ```{=html}
 <!-- 
 
-[{{< fa desktop size=xl >}}](lectures/html/ked2025_12.html){target="_blank"} [{{< fa file-pdf size=xl >}}](lectures/pdf/ked2025_12.pdf){target="_blank"} [{{< fa brands github size=xl >}}](https://github.com/aflueckiger/KED2025/tree/main/ked/lectures/md/ked2025_12.md){target="_blank"}
+
 
 -->
 ```
